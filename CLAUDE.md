@@ -48,6 +48,8 @@ Cuando llegue a **100 o más** y NO exista el archivo `hito_100.md` en el repo: 
 ("¡Llegamos a 100 suscriptores! Ya podemos empezar con los videos largos de hasta 3 minutos"), crear `hito_100.md`
 con la fecha y el número, y hacer push (así se avisa una sola vez). Igual seguir con los Shorts del día.
 No empezar videos largos por cuenta propia: eso se decide con el usuario.
+Los Shorts diarios (15:00 y 20:00) siguen SIEMPRE, también cuando se sumen largos; la frecuencia de los largos
+(diario o día por medio) la define el usuario en su momento.
 
 ## Reglas
 - Nunca repetir un tema del historial. Nunca publicar datos no verificados.
