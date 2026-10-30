@@ -41,6 +41,14 @@ Si ya pasaron esas horas, programar para mañana a las mismas horas. Antes de pr
 7. **Actualizar `historial.md`** con una fila por video (fecha, hora, pilar, tema, dato/fuente, archivo) y hacer push.
 8. Mandar al usuario (SendUserMessage) un resumen corto: los 2 títulos, horarios y el link del planner de Metricool.
 
+## Meta: 100 suscriptores → videos largos
+Por ahora SOLO Shorts. En cada ejecución, consultar suscriptores con `getAnalyticsDataByMetrics`
+(brandId 7762882, métrica `YTEV01`, rango últimos 7 días; tomar el valor más reciente) e incluirlos en el resumen al usuario.
+Cuando llegue a **100 o más** y NO exista el archivo `hito_100.md` en el repo: avisarle al usuario con un mensaje bien visible
+("¡Llegamos a 100 suscriptores! Ya podemos empezar con los videos largos de hasta 3 minutos"), crear `hito_100.md`
+con la fecha y el número, y hacer push (así se avisa una sola vez). Igual seguir con los Shorts del día.
+No empezar videos largos por cuenta propia: eso se decide con el usuario.
+
 ## Reglas
 - Nunca repetir un tema del historial. Nunca publicar datos no verificados.
 - No usar personajes, logos ni marcas de terceros en los gráficos (se puede nombrar una app en texto si es parte del dato).
