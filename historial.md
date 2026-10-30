@@ -11,3 +11,4 @@ no repetir el tema, ni el dato central, ni el gancho. Agregar una fila por cada 
 | 4 | 2026-10 (publicado) | — | Curiosidades | Vibración fantasma: 9 de cada 10 universitarios; 68% personal hospital; apagar vibración | Drouin 2012; Rothberg 2010 | — |
 | 5 | 2026-10 (publicado) | — | Chicos y pantallas | Países que prohíben redes a menores: Australia -16, 4,7 M cuentas, multa 49,5 M AUD; Grecia -15 desde 2027 | eSafety/Al Jazeera ene y oct 2026 | — |
 | 6 | 2026-10 (publicado) | — | Mente y emociones | Celular en la cama: luz frena melatonina, casi 10 min más en dormirse, menos REM | Chang et al., PNAS 2015 (Harvard/Penn State) | — |
+| 7 | 2026-10-30 | 20:00 | Curiosidades y hábitos | ¿Cuántas veces mirás el celular por día? 186 veces, 1 cada ~5 min, 85% en los primeros 10 min al despertar, +4 de 10 ansiedad con batería <20% | Reviews.org, encuesta Q4 2025 (EE.UU.) | publicados/2026-10-30_cuantas-veces-miras-el-celular.mp4 |
