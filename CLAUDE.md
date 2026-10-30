@@ -58,6 +58,8 @@ Los Shorts diarios (15:00 y 20:00) siguen SIEMPRE, también cuando se sumen larg
 - Preferir temas de alta curiosidad y fáciles de compartir con amigos o padres (los que funcionen mejor según vistas, repetir el ángulo, no el tema).
 
 ## Reglas
+- La marca de Metricool (7762882) también tiene conectado un TikTok de OTRO canal (gaming: misterd.coc). Este canal publica
+  SOLO en YouTube: providers siempre `[{"network":"youtube"}]`, nunca agregar tiktok ni otra red.
 - Nunca repetir un tema del historial. Nunca publicar datos no verificados.
 - No usar personajes, logos ni marcas de terceros en los gráficos (se puede nombrar una app en texto si es parte del dato).
 - No borrar videos ni publicaciones existentes.
