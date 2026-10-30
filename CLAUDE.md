@@ -51,6 +51,12 @@ No empezar videos largos por cuenta propia: eso se decide con el usuario.
 Los Shorts diarios (15:00 y 20:00) siguen SIEMPRE, también cuando se sumen largos; la frecuencia de los largos
 (diario o día por medio) la define el usuario en su momento.
 
+## Crecimiento (meta: 100 suscriptores)
+- Gancho fuerte en el primer segundo: pregunta directa o dato que sorprenda, texto grande desde el frame 1.
+- Al menos 1 de los 2 videos del día termina la escena 20-23.2 con una pregunta para comentar (sí/no, "¿y vos?", "¿cuántas veces...?").
+- Descripción: terminar con "Seguí el canal para más avisos ⚠️" antes de los hashtags.
+- Preferir temas de alta curiosidad y fáciles de compartir con amigos o padres (los que funcionen mejor según vistas, repetir el ángulo, no el tema).
+
 ## Reglas
 - Nunca repetir un tema del historial. Nunca publicar datos no verificados.
 - No usar personajes, logos ni marcas de terceros en los gráficos (se puede nombrar una app en texto si es parte del dato).
