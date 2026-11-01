@@ -47,8 +47,9 @@ El plan de Metricool puede quedarse sin publicaciones automáticas. En ese caso 
   el archivo `modo_manual.md` en el repo: pasar a **modo manual** para ese video. No reintentar en bucle.
 - Modo manual = los videos se hacen igual (paso 1 a 5 y 7), y al final se le entregan a Diego listos para subir:
   1. `SendUserFile` con cada mp4 (display "attach").
-  2. `SendUserMessage` con, por cada video, un bloque listo para copiar: **Título**, **Descripción** (con fuente, "Seguí el canal
-     para más avisos ⚠️" y hashtags) y **Hora**: 15:00 o 20:00. Más los pasos cortos: YouTube Studio → Crear → Subir video →
+  2. `SendUserMessage` con, por cada video, un bloque listo para copiar: **Título** (con 1 emoji), **Descripción** (con fuente y
+     "Seguí el canal para más avisos ⚠️"), **exactamente 3 hashtags** (`#shorts #nodigasquenoteavisé` + 1 del tema)
+     y **Hora**: 15:00 o 20:00. Más los pasos cortos: YouTube Studio → Crear → Subir video →
      pegar título y descripción → "No es para niños" → Visibilidad → **Programar** → fecha y hora.
   3. Incluir también el link de descarga directo (URL raw de GitHub) por si el adjunto no abre en el celular.
 - En `historial.md` marcar la hora como "15:00 (manual)" o "20:00 (manual)".
