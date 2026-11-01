@@ -41,6 +41,20 @@ Si ya pasaron esas horas, programar para mañana a las mismas horas. Antes de pr
 7. **Actualizar `historial.md`** con una fila por video (fecha, hora, pilar, tema, dato/fuente, archivo) y hacer push.
 8. Mandar al usuario (SendUserMessage) un resumen corto: los 2 títulos, horarios y el link del planner de Metricool.
 
+## Modo manual (cuando Metricool no deja publicar automático)
+El plan de Metricool puede quedarse sin publicaciones automáticas. En ese caso NO se frena la producción:
+- Si `createScheduledPost` devuelve un error de límite/plan/cuota (o cualquier rechazo que no sea por el contenido), o si existe
+  el archivo `modo_manual.md` en el repo: pasar a **modo manual** para ese video. No reintentar en bucle.
+- Modo manual = los videos se hacen igual (paso 1 a 5 y 7), y al final se le entregan a Diego listos para subir:
+  1. `SendUserFile` con cada mp4 (display "attach").
+  2. `SendUserMessage` con, por cada video, un bloque listo para copiar: **Título**, **Descripción** (con fuente, "Seguí el canal
+     para más avisos ⚠️" y hashtags) y **Hora**: 15:00 o 20:00. Más los pasos cortos: YouTube Studio → Crear → Subir video →
+     pegar título y descripción → "No es para niños" → Visibilidad → **Programar** → fecha y hora.
+  3. Incluir también el link de descarga directo (URL raw de GitHub) por si el adjunto no abre en el celular.
+- En `historial.md` marcar la hora como "15:00 (manual)" o "20:00 (manual)".
+- Cada día se vuelve a intentar primero con Metricool: si funciona (Diego renovó), se vuelve al modo automático solo.
+  Si existe `modo_manual.md`, no intentar Metricool hasta que Diego pida volver al automático (y entonces borrar ese archivo).
+
 ## Meta: 100 suscriptores → videos largos
 Por ahora SOLO Shorts. En cada ejecución, consultar suscriptores con `getAnalyticsDataByMetrics`
 (brandId 7762882, métrica `YTEV01`, rango últimos 7 días; tomar el valor más reciente) e incluirlos en el resumen al usuario.
