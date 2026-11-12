@@ -3,7 +3,7 @@
 | Archivo | Qué muestra | Usada en |
 |---|---|---|
 | 1793722010486_image.png | Inicio: conexión TikTok LIVE + Acceso Rápido (TTS, Sound Alerts, Acciones y Eventos) | Ep.1 |
-| inicio2.png | Inicio en español: Acceso Rápido (Texto a voz, Alertas de sonido, Acciones y Eventos) + Agencias | — |
+| inicio2.png | Inicio en español: Acceso Rápido (Texto a voz, Alertas de sonido, Acciones y Eventos) + Agencias | Ep.3, s9 |
 | 1793722086379_image.png | Configuración: usuario de TikTok + Conectar a TikTok LIVE; banner "nuevo TikFinity / Migrar ahora" | Ep.1 |
 | 1793722108699_image.png | Error "Tu transmisión está offline" | Ep.1, Short s1 |
 | 1793722117131_image.png | Sistema de puntos (nombre moneda, puntos por moneda/compartir/minuto de chat) | Ep.1, s4 |
@@ -20,9 +20,9 @@
 | viewers.png | Meta de Viewer Count | Ep.2 |
 | subs.png | Nuevos suscriptores + Objetivos personalizados | Ep.2 |
 | ultimo.png | "Lo último y lo mejor": app de escritorio, Voicemod, miembros de equipo, Minecraft, GTA 5, simulador de teclas | Ep.2, s8 (parcial: GTA 5 y teclas sin usar) |
-| faq.png | Preguntas frecuentes (no conecta, multistreaming, error Minecraft IP/puerto, alertas no suenan, filtro de palabras TTS, móvil, clave de stream, directos limitados) | — |
-| agencias.png | Agencias: "No hay agencias en tu región" | — |
-| canal_oficial.png | Canal oficial tikfinity.official en TikTok | — |
-| tutoriales_video.png | Tutoriales en video (Cómo poner ALERTAS, configurar CHAT de VOZ) | — |
+| faq.png | Preguntas frecuentes (no conecta, multistreaming, error Minecraft IP/puerto, alertas no suenan, filtro de palabras TTS, móvil, clave de stream, directos limitados) | Ep.3, s9, s10, s11, s12 |
+| agencias.png | Agencias: "No hay agencias en tu región" | Ep.3, s12 |
+| canal_oficial.png | Canal oficial tikfinity.official en TikTok | Ep.3 |
+| tutoriales_video.png | Tutoriales en video (Cómo poner ALERTAS, configurar CHAT de VOZ) | Ep.3 |
 | canales_en_directo.png | Canales en directo que usan TikFinity | — |
 | transacciones.png | Transacciones de regalos en tiempo real | — |
