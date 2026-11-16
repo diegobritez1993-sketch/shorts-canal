@@ -17,9 +17,14 @@
 | 2026-11-14 | 21:00 | Short | ¿Pantalla desconectada en TikFinity? La solución | publicados/s10_pantallas.mp4 |
 | 2026-11-15 | 21:00 | Short | ¿Groserías en el texto a voz de tu live? Controlalo así | publicados/s11_tts_filtro.mp4 |
 | 2026-11-16 | 21:00 | Short | ¿Cómo conseguir la clave de stream de TikTok? | publicados/s12_clave.mp4 |
+| 2026-11-17 | 18:30 | Largo | 5 ideas para un live de TikTok MÁS INTERACTIVO con TikFinity (GTA 5, teclas, Minecraft) | publicados/tikfinity_ideas_live.mp4 |
+| 2026-11-17 | 21:00 | Short | Espiá cómo usan TikFinity los streamers que la rompen | publicados/s13_canales.mp4 |
+| 2026-11-18 | 21:00 | Short | Que tu público maneje tu GTA 5 con regalos (TikFinity) | publicados/s14_gta.mp4 |
+| 2026-11-19 | 21:00 | Short | Regalos que aprietan teclas en tu PC (TikFinity) | publicados/s15_teclas.mp4 |
 
 Temas ya cubiertos: configuración general, conexión/offline, puntos y niveles, bono suscriptores,
 OBS, Streamer.bot, Minecraft, superposiciones, metas (likes, follows, shares, viewers, subs),
 novedades (app escritorio, Voicemod, miembros de equipo),
-FAQ/problemas comunes (no conecta, alertas mudas, pantallas offline, filtro TTS, Minecraft, celular, clave de stream, lives limitados).
-Próximo número de Short: s13. Próximo episodio largo: ep.4 (long4.py, prefijo l4_). Ep.3 scripts en motor/ (long3.py, l3_audio.py, shorts3.py, thumb3.py).
+FAQ/problemas comunes (no conecta, alertas mudas, pantallas offline, filtro TTS, Minecraft, celular, clave de stream, lives limitados),
+ideas para un live interactivo (canales en directo, transacciones, GTA 5, simulación de teclas, Acciones y Eventos).
+Próximo número de Short: s16. Próximo episodio largo: ep.5 (long5.py, prefijo l5_). Ep.4 scripts en motor/ (long4.py, l4_audio.py, shorts4.py, thumb4.py; hojas de contacto: sheet.py long4 out.png / sheet_s.py nombres).
