@@ -10,6 +10,7 @@ OSW = FD + "oswald-latin-500-normal.woff"
 OSWB = FD + "oswald-latin-700-normal.woff"
 TYPE = FD + "special-elite-latin-400-normal.woff"
 HANDLE = "@diegoeditspy"
+FOOT_Y = 1560
 W, H, FPS = 1080, 1920, 30
 BONE = (236, 228, 212); RED = (214, 32, 39); DIM = (150, 142, 130)
 _f = {}
@@ -76,9 +77,9 @@ def header(d, a):
 def footer(d, a, src):
     if a <= 0: return
     c = tuple(int(v * a) for v in BONE); c2 = tuple(int(v * a) for v in DIM)
-    ctext(d, 1560, HANDLE, F(ANTON, 58), c)
+    ctext(d, FOOT_Y, HANDLE, F(ANTON, 58), c)
     for k, ln in enumerate(wrap_lines(src, F(OSW, 28), W - 160)):
-        ctext(d, 1636 + k * 36, ln, F(OSW, 28), c2)
+        ctext(d, FOOT_Y + 76 + k * 36, ln, F(OSW, 28), c2)
 
 L = {}
 def frame(t, fi, S):
@@ -134,29 +135,29 @@ def riff(total, bpm=140, root=40):  # root midi 40 = E2
                     sig += 2 * ph - 1
             mute = 0.55 if (i % 4 in (1, 2)) else 1.0
             env = np.minimum(1, tt / 0.004) * np.exp(-tt / (0.09 if mute < 1 else 0.35))
-            out[s:s + ln] += sig * env * mute
+            e_ = min(n, s + ln); out[s:e_] += (sig * env * mute)[:e_ - s]
         t0 += step; i += 1
     a = np.exp(-2 * np.pi * 2800 / SR)
     out = lfilter([1 - a], [1, -a], np.tanh(out * 3.5))
     return out * 0.32
 
 def drums(total, bpm=140):
-    n = int(total * SR); L_ = np.zeros(n); beat = 60 / bpm
+    n = int(total * SR); L_ = np.zeros(n + SR); beat = 60 / bpm
     k = 0; t = 0.0
     while t < total:
         s = int(t * SR)
         if k % 2 == 0 or k % 8 == 7:
             kl = int(0.25 * SR); tk = np.arange(kl) / SR
             f = 50 + 90 * np.exp(-tk * 35)
-            L_[s:s + kl] += (np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-tk * 12) * 0.6)[:max(0, n - s)]
+            L_[s:s + kl] += (np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-tk * 12) * 0.6)
         if k % 4 == 2:
             sl = int(0.22 * SR); ts = np.arange(sl) / SR
             sn = rng.standard_normal(sl) * np.exp(-ts * 14) * 0.35 + np.sin(2 * np.pi * 200 * ts) * np.exp(-ts * 20) * 0.25
-            L_[s:s + sl] += sn[:max(0, n - s)]
+            L_[s:s + sl] += sn
         hl = int(0.05 * SR); hh = rng.standard_normal(hl); hh = hh - lfilter([0.3], [1, -0.7], hh)
-        L_[s:s + hl] += (hh * np.exp(-np.arange(hl) / SR * 70) * 0.08)[:max(0, n - s)]
+        L_[s:s + hl] += (hh * np.exp(-np.arange(hl) / SR * 70) * 0.08)
         t += beat / 2; k += 1
-    return L_
+    return L_[:n]
 
 def hit(total, at):
     n = int(total * SR); o = np.zeros(n); s = int(at * SR); ln = int(1.2 * SR)
@@ -180,7 +181,7 @@ def render(S, out):
     tmp = out + ".part.mp4"
     p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
                           "-r", str(FPS), "-i", "-", "-i", out + ".wav", "-map", "0:v", "-map", "1:a",
-                          "-c:v", "libx264", "-crf", "19", "-preset", "veryfast", "-pix_fmt", "yuv420p",
+                          "-c:v", "libx264", "-crf", "23", "-maxrate", "5M", "-bufsize", "10M", "-preset", "veryfast", "-pix_fmt", "yuv420p",
                           "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", tmp], stdin=subprocess.PIPE)
     for i in range(int(TOTAL * FPS)):
         p.stdin.write(frame(i / FPS, i, S).tobytes())
@@ -206,6 +207,7 @@ if __name__ == "__main__":
     # uso: python3 story.py datos/AAAA-MM-DD.json salida.mp4 [preview]
     j, S = load(sys.argv[1])
     SRC = j["fuente"]
+    FOOT_Y = j.get("footer_y", 1560)
     out = sys.argv[2]
     total = S[-1]["t0"] + S[-1]["dur"]
     if sys.argv[3:] == ["preview"]:
