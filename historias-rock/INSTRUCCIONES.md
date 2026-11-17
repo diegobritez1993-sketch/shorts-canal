@@ -20,6 +20,8 @@ del mismo país ni de la misma banda). Español con voseo.
   firma **@diegoeditspy** abajo y la fuente debajo. **NO poner "Rock en Ascenso"**.
 - Dejá libres arriba (y < 450) y abajo (y > 1700): ahí Instagram pone su interfaz.
 
+**Efectos de sonido obligatorios** en cada story (whoosh en transiciones, impacto en títulos `slam`, tecleo en textos `type`): los pone el motor solo. Cada escena con al menos un `slam` o `type`.
+
 ## Cómo armar una story
 1. Escribí `datos/AAAA-MM-DD.json` siguiendo `datos/ejemplo_hermetica.json`:
    - 3 a 5 escenas, 14 a 18 s en total. Primera escena: gancho ("¿SABÍAS QUE...?" u otra variante:

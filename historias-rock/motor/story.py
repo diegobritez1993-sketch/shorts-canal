@@ -175,6 +175,77 @@ def music(total, hits, out, bpm=140, root=40):
     w = wave.open(out, "wb"); w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR)
     w.writeframes((st * 32767).astype(np.int16).tobytes()); w.close()
 
+
+# ---------- efectos de sonido ----------
+def _env(n, a, r):
+    t = np.arange(n) / SR
+    return np.minimum(1, t / max(a, 1e-4)) * np.exp(-t / r)
+
+def _lp(x, cut):
+    a = np.exp(-2 * np.pi * cut / SR); return lfilter([1 - a], [1, -a], x)
+
+def sfx_whoosh(dur=0.5):
+    n = int(dur * SR); x = rng.standard_normal(n); y = np.zeros(n); seg = 256
+    for i in range(0, n, seg):
+        c = 400 + 6000 * np.sin(np.pi * i / n) ** 2
+        y[i:i + seg] = _lp(x[i:i + seg], c)
+    return y * np.sin(np.pi * np.arange(n) / n) ** 1.5 * 1.1
+
+def sfx_impact():
+    n = int(0.9 * SR); t = np.arange(n) / SR
+    boom = np.sin(2 * np.pi * np.cumsum(45 + 70 * np.exp(-t * 18)) / SR) * np.exp(-t * 4.5)
+    crack = _lp(rng.standard_normal(n), 5000) * np.exp(-t * 28)
+    ring = sum(np.sin(2 * np.pi * f * t) for f in (523, 787, 1290)) * np.exp(-t * 7) * 0.12
+    return boom * 1.0 + crack * 0.7 + ring
+
+def sfx_type(chars):
+    k = max(4, min(14, chars // 2)); n = int((k * 0.045 + 0.1) * SR); y = np.zeros(n)
+    for i in range(k):
+        s = int(i * 0.045 * SR + rng.uniform(0, 0.01) * SR); cl = int(0.02 * SR)
+        c = rng.standard_normal(cl) * np.exp(-np.arange(cl) / SR * 400)
+        c = c - _lp(c, 1500)
+        y[s:s + cl] += c * rng.uniform(0.5, 0.9)
+    return y * 0.9
+
+def sfx_tick():
+    n = int(0.12 * SR); t = np.arange(n) / SR
+    return np.sin(2 * np.pi * np.cumsum(1400 + 900 * np.exp(-t * 60)) / SR) * np.exp(-t * 45) * 0.45
+
+def sfx_swipe():
+    n = int(0.3 * SR); x = rng.standard_normal(n); x = x - _lp(x, 2500)
+    return x * np.sin(np.pi * np.arange(n) / n) * 0.35
+
+def sfx_events(S):
+    ev = []
+    for k, sc in enumerate(S):
+        if k: ev.append((sc["t0"] - 0.22, sfx_whoosh()))
+        for e in sc["els"]:
+            at = sc["t0"] + e.get("d", 0)
+            if e.get("slam"): ev.append((at, sfx_impact()))
+            elif e["f"] == TYPE: ev.append((at, sfx_type(len(e["s"]))))
+            else: ev.append((at, sfx_tick()))
+            if e.get("bar"): ev.append((at + 0.05, sfx_swipe()))
+    return ev
+
+def mixdown(total, S, out, bpm=140, root=40, musica=True, vol_musica=0.7):
+    n = int(total * SR)
+    m = (riff(total, bpm, root) + drums(total, bpm)) if musica else np.zeros(n)
+    tt = np.arange(n) / SR
+    m = m / max(1e-6, np.abs(m).max()) * vol_musica
+    fx = np.zeros(n + 2 * SR)
+    duck = np.ones(n)
+    for at, x in sfx_events(S):
+        s = max(0, int(at * SR)); fx[s:s + len(x)] += x[:len(fx) - s]
+        a, b = s, min(n, s + int(0.35 * SR)); duck[a:b] = np.minimum(duck[a:b], 0.55)
+    duck = _lp(duck, 30)
+    mix = m * duck + fx[:n] * 0.8
+    mix *= np.minimum(1, tt / 0.05) * np.minimum(1, (total - tt) / 0.8)
+    mix = np.tanh(mix * 1.2) / np.tanh(1.2)
+    mix = mix / max(1e-6, np.abs(mix).max()) * 0.9
+    st = np.stack([mix, mix * 0.97], 1)
+    w = wave.open(out, "wb"); w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR)
+    w.writeframes((st * 32767).astype(np.int16).tobytes()); w.close()
+
 def render(S, out):
     global TOTAL
     TOTAL = S[-1]["t0"] + S[-1]["dur"]
@@ -219,7 +290,7 @@ if __name__ == "__main__":
         sheet.save(out, quality=85)
     else:
         rng = np.random.default_rng(j.get("seed", 3))
-        music(total, [sc["t0"] + (0.5 if k else 0) for k, sc in enumerate(S)], out + ".wav", j.get("bpm", 140), j.get("tono", 40))
+        mixdown(total, S, out + ".wav", j.get("bpm", 140), j.get("tono", 40), j.get("musica", True), j.get("vol_musica", 0.7))
         render(S, out)
         os.remove(out + ".wav")
         print("ok", out)
