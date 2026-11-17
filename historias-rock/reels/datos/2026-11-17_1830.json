@@ -1,0 +1,44 @@
+{
+ "tema": "Top: 3 debuts del heavy británico que salieron en 1980 (Def Leppard, Iron Maiden, Diamond Head)",
+ "fuente": "Fuentes: Wikipedia · EIL · Ultimate Classic Rock",
+ "url_fuente": "https://ultimateclassicrock.com/diamond-head-lightning-to-the-nations/",
+ "seed": 27,
+ "bpm": 164,
+ "tono": 40,
+ "footer_y": 1360,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.6, "els": [
+   {"s": "1980", "f": "anton", "size": 190, "y": 640, "c": "red", "slam": true},
+   {"s": "3 DISCOS DEBUT", "f": "anton", "size": 130, "y": 850, "slam": true, "d": 0.35},
+   {"s": "DEL HEAVY BRITÁNICO", "f": "anton", "size": 100, "y": 1010, "slam": true, "d": 0.7},
+   {"s": "que tenés que escuchar", "f": "type", "size": 52, "y": 1160, "d": 1.2}
+  ]},
+  {"t0": 3.6, "dur": 6.4, "els": [
+   {"s": "#1 · 14 de marzo de 1980", "f": "type", "size": 52, "y": 640},
+   {"s": "DEF LEPPARD", "f": "anton", "size": 160, "y": 790, "slam": true, "d": 0.35, "bar": 560},
+   {"s": "«On Through the Night»", "f": "oswb", "size": 62, "y": 1000, "d": 1.0},
+   {"s": "llegó al puesto 15", "f": "oswb", "size": 58, "y": 1090, "d": 1.6},
+   {"s": "en el ranking del Reino Unido", "f": "type", "size": 44, "y": 1170, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 10.0, "dur": 6.4, "els": [
+   {"s": "#2 · 14 de abril de 1980", "f": "type", "size": 52, "y": 640},
+   {"s": "IRON MAIDEN", "f": "anton", "size": 160, "y": 790, "c": "red", "slam": true, "d": 0.35, "bar": 560},
+   {"s": "«Iron Maiden»", "f": "oswb", "size": 62, "y": 1000, "d": 1.0},
+   {"s": "llegó al puesto 4", "f": "oswb", "size": 58, "y": 1090, "d": 1.6},
+   {"s": "en el ranking del Reino Unido", "f": "type", "size": 44, "y": 1170, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 16.4, "dur": 7.0, "els": [
+   {"s": "#3 · 3 de octubre de 1980", "f": "type", "size": 52, "y": 640},
+   {"s": "DIAMOND HEAD", "f": "anton", "size": 150, "y": 790, "slam": true, "d": 0.35, "bar": 560},
+   {"s": "«Lightning to the Nations»", "f": "oswb", "size": 60, "y": 990, "d": 1.0},
+   {"s": "lo grabaron y repartieron ellos", "f": "oswb", "size": 52, "y": 1080, "d": 1.6},
+   {"s": "en un sobre blanco, sin título", "f": "type", "size": 44, "y": 1160, "c": "dim", "d": 2.2}
+  ]},
+  {"t0": 23.4, "dur": 5.6, "els": [
+   {"s": "Orden de salida, no de ranking", "f": "type", "size": 46, "y": 640, "c": "dim"},
+   {"s": "¿CUÁL", "f": "anton", "size": 180, "y": 800, "slam": true, "d": 0.3},
+   {"s": "AGREGARÍAS?", "f": "anton", "size": 170, "y": 980, "c": "red", "slam": true, "d": 0.6},
+   {"s": "Contame abajo", "f": "type", "size": 52, "y": 1170, "d": 1.4}
+  ]}
+ ]
+}
