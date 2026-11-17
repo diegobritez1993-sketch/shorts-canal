@@ -1,0 +1,24 @@
+{
+  "tema": "Hermética antes se llamó Helvética",
+  "fuente": "Fuente: La Izquierda Diario, «Hermética: diez curiosidades» (2018)",
+  "url_fuente": "https://www.laizquierdadiario.com/Hermetica-diez-curiosidades-a-30-anos-de-su-debut",
+  "seed": 3, "bpm": 140, "tono": 40,
+  "escenas": [
+    {"t0": 0.0, "dur": 3.0, "els": [
+      {"s": "¿SABÍAS", "f": "anton", "size": 190, "y": 820, "slam": true},
+      {"s": "QUE...?", "f": "anton", "size": 190, "y": 1020, "c": "red", "slam": true, "d": 0.35}]},
+    {"t0": 3.0, "dur": 4.3, "els": [
+      {"s": "HERMÉTICA", "f": "anton", "size": 170, "y": 800, "slam": true, "bar": 520},
+      {"s": "no siempre se llamó así", "f": "type", "size": 58, "y": 990, "d": 0.6}]},
+    {"t0": 7.3, "dur": 4.4, "els": [
+      {"s": "Antes fue un trío llamado", "f": "type", "size": 54, "y": 640},
+      {"s": "HELVÉTICA", "f": "anton", "size": 180, "y": 820, "c": "red", "slam": true, "d": 0.5},
+      {"s": "con Ricardo Iorio", "f": "oswb", "size": 62, "y": 1010, "d": 1.3},
+      {"s": "en bajo y voz", "f": "oswb", "size": 62, "y": 1090, "d": 1.5}]},
+    {"t0": 11.7, "dur": 4.3, "els": [
+      {"s": "El debut oficial ya como Hermética:", "f": "type", "size": 46, "y": 640},
+      {"s": "7 DE MAYO DE 1988", "f": "anton", "size": 120, "y": 800, "slam": true, "d": 0.4},
+      {"s": "pub Helloween · San Martín", "f": "oswb", "size": 58, "y": 950, "d": 1.0},
+      {"s": "(y un día antes ya habían tocado en vivo)", "f": "type", "size": 40, "y": 1040, "c": "dim", "d": 1.6}]}
+  ]
+}
