@@ -1,0 +1,6 @@
+Grabaciones reales de instrumentos (recortadas y convertidas a FLAC mono), dominio público CC0 1.0:
+- Guitarra: Karoryfer Lecolds, «Black and Green Guitars» (Hofner Club negra, grabada por Brian Wood)
+  https://github.com/sfzinstruments/karoryfer.black-and-green-guitars  (LICENSE: CC0 1.0)
+- Batería: Karoryfer Lecolds, «Big Rusty Drums»
+  https://github.com/sfzinstruments/karoryfer.big-rusty-drums  (LICENSE: CC0 1.0)
+Uso libre comercial y no comercial. El riff (motor/rock.py) es original.

@@ -228,21 +228,25 @@ def sfx_events(S):
     return ev
 
 def mixdown(total, S, out, bpm=140, root=40, musica=True, vol_musica=0.7):
+    # música: hard rock con guitarra y batería REALES grabadas (motor/rock.py)
+    import rock
     n = int(total * SR)
-    m = (riff(total, bpm, root) + drums(total, bpm)) if musica else np.zeros(n)
+    if musica:
+        m = rock.rock(total, bpm, root, int(rng.integers(1 << 30)), crashes=[sc["t0"] for sc in S])[:n] * vol_musica
+    else:
+        m = np.zeros((n, 2))
     tt = np.arange(n) / SR
-    m = m / max(1e-6, np.abs(m).max()) * vol_musica
     fx = np.zeros(n + 2 * SR)
     duck = np.ones(n)
     for at, x in sfx_events(S):
         s = max(0, int(at * SR)); fx[s:s + len(x)] += x[:len(fx) - s]
-        a, b = s, min(n, s + int(0.35 * SR)); duck[a:b] = np.minimum(duck[a:b], 0.55)
+        a, b = s, min(n, s + int(0.3 * SR)); duck[a:b] = np.minimum(duck[a:b], 0.7)
     duck = _lp(duck, 30)
-    mix = m * duck + fx[:n] * 0.8
-    mix *= np.minimum(1, tt / 0.05) * np.minimum(1, (total - tt) / 0.8)
+    mix = m * duck[:, None] + fx[:n, None] * 0.55
+    mix *= (np.minimum(1, tt / 0.05) * np.minimum(1, (total - tt) / 0.8))[:, None]
     mix = np.tanh(mix * 1.2) / np.tanh(1.2)
     mix = mix / max(1e-6, np.abs(mix).max()) * 0.9
-    st = np.stack([mix, mix * 0.97], 1)
+    st = mix
     w = wave.open(out, "wb"); w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR)
     w.writeframes((st * 32767).astype(np.int16).tobytes()); w.close()
 
