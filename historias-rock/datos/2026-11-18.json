@@ -1,0 +1,26 @@
+{
+  "tema": "Los Ramones sacaron su apellido de un seudónimo de Paul McCartney",
+  "fuente": "Fuente: Mental Floss, «11 Fast Facts About the Ramones» (2022)",
+  "url_fuente": "https://www.mentalfloss.com/article/654066/ramones-band-facts",
+  "seed": 11, "bpm": 158, "tono": 43,
+  "escenas": [
+    {"t0": 0.0, "dur": 3.0, "els": [
+      {"s": "POCOS", "f": "anton", "size": 190, "y": 820, "slam": true},
+      {"s": "LO SABEN", "f": "anton", "size": 190, "y": 1020, "c": "red", "slam": true, "d": 0.35}]},
+    {"t0": 3.0, "dur": 4.2, "els": [
+      {"s": "RAMONES", "f": "anton", "size": 180, "y": 800, "slam": true, "bar": 520},
+      {"s": "no eran hermanos ni se", "f": "type", "size": 54, "y": 990, "d": 0.6},
+      {"s": "apellidaban Ramone", "f": "type", "size": 54, "y": 1060, "d": 0.9}]},
+    {"t0": 7.2, "dur": 4.4, "els": [
+      {"s": "En sus inicios con los Beatles,", "f": "type", "size": 48, "y": 620},
+      {"s": "Paul McCartney se registraba", "f": "type", "size": 48, "y": 690, "d": 0.3},
+      {"s": "en los hoteles como", "f": "type", "size": 48, "y": 760, "d": 0.6},
+      {"s": "PAUL RAMON", "f": "anton", "size": 160, "y": 900, "c": "red", "slam": true, "d": 1.1}]},
+    {"t0": 11.6, "dur": 4.4, "els": [
+      {"s": "Dee Dee, fan de los Beatles,", "f": "type", "size": 50, "y": 640},
+      {"s": "se lo copió", "f": "type", "size": 50, "y": 710, "d": 0.3},
+      {"s": "DEE DEE RAMONE", "f": "anton", "size": 130, "y": 850, "slam": true, "d": 0.7},
+      {"s": "y la banda adoptó el apellido", "f": "oswb", "size": 56, "y": 1000, "d": 1.3},
+      {"s": "Queens, Nueva York · 1974", "f": "oswb", "size": 52, "y": 1080, "c": "dim", "d": 1.6}]}
+  ]
+}
