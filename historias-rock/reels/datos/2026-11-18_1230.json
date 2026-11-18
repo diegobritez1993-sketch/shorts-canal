@@ -1,0 +1,46 @@
+{
+ "tema": "AC/DC sacó su nombre de la máquina de coser de su hermana Margaret",
+ "fuente": "Fuentes: Wikipedia (AC/DC) · Loudwire",
+ "url_fuente": "https://loudwire.com/acdc-band-name-meaning-how/",
+ "seed": 33,
+ "bpm": 138,
+ "tono": 44,
+ "footer_y": 1360,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.4, "els": [
+   {"s": "¿DE DÓNDE", "f": "anton", "size": 170, "y": 720, "slam": true},
+   {"s": "SALIÓ EL NOMBRE", "f": "anton", "size": 120, "y": 900, "slam": true, "d": 0.3},
+   {"s": "AC/DC?", "f": "anton", "size": 190, "y": 1070, "c": "red", "slam": true, "d": 0.6}
+  ]},
+  {"t0": 3.4, "dur": 4.6, "els": [
+   {"s": "Sídney, noviembre de 1973", "f": "type", "size": 52, "y": 680},
+   {"s": "MALCOLM Y ANGUS", "f": "anton", "size": 120, "y": 840, "slam": true, "d": 0.4, "bar": 600},
+   {"s": "dos hermanos armaban banda", "f": "oswb", "size": 60, "y": 1020, "d": 1.0},
+   {"s": "y les faltaba el nombre", "f": "oswb", "size": 60, "y": 1100, "d": 1.4}
+  ]},
+  {"t0": 8.0, "dur": 4.6, "els": [
+   {"s": "La respuesta estaba en", "f": "type", "size": 54, "y": 660},
+   {"s": "LA MÁQUINA", "f": "anton", "size": 160, "y": 820, "slam": true, "d": 0.4},
+   {"s": "DE COSER", "f": "anton", "size": 160, "y": 990, "c": "red", "slam": true, "d": 0.7},
+   {"s": "de su hermana Margaret", "f": "oswb", "size": 60, "y": 1140, "d": 1.3}
+  ]},
+  {"t0": 12.6, "dur": 4.8, "els": [
+   {"s": "En el adaptador decía:", "f": "type", "size": 54, "y": 660},
+   {"s": "AC/DC", "f": "anton", "size": 200, "y": 840, "c": "red", "slam": true, "d": 0.4, "bar": 520},
+   {"s": "corriente alterna /", "f": "oswb", "size": 58, "y": 1060, "d": 1.1},
+   {"s": "corriente continua", "f": "oswb", "size": 58, "y": 1135, "d": 1.4}
+  ]},
+  {"t0": 17.4, "dur": 4.4, "els": [
+   {"s": "A ellos les sonó a", "f": "type", "size": 54, "y": 680},
+   {"s": "PURA", "f": "anton", "size": 160, "y": 840, "slam": true, "d": 0.4},
+   {"s": "ENERGÍA", "f": "anton", "size": 180, "y": 1010, "c": "red", "slam": true, "d": 0.7},
+   {"s": "como su música en vivo", "f": "oswb", "size": 58, "y": 1160, "d": 1.3}
+  ]},
+  {"t0": 21.8, "dur": 5.4, "els": [
+   {"s": "Su primer show oficial:", "f": "oswb", "size": 62, "y": 660},
+   {"s": "31/12/1973", "f": "anton", "size": 160, "y": 830, "c": "red", "slam": true, "d": 0.4},
+   {"s": "en el club Chequers de Sídney", "f": "oswb", "size": 52, "y": 1000, "d": 1.0},
+   {"s": "¿Lo sabías? Contame abajo", "f": "type", "size": 50, "y": 1170, "d": 1.8}
+  ]}
+ ]
+}

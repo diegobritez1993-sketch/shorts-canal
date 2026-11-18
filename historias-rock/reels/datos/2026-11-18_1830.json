@@ -1,0 +1,52 @@
+{
+ "tema": "Top: los 4 discos debut del Big Four del thrash, en orden de salida",
+ "fuente": "Fuentes: Wikipedia (discos debut de cada banda)",
+ "url_fuente": "https://en.wikipedia.org/wiki/Show_No_Mercy",
+ "seed": 58,
+ "bpm": 168,
+ "tono": 39,
+ "footer_y": 1360,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.6, "els": [
+   {"s": "EL BIG FOUR", "f": "anton", "size": 170, "y": 680, "c": "red", "slam": true},
+   {"s": "DEL THRASH", "f": "anton", "size": 150, "y": 870, "slam": true, "d": 0.35},
+   {"s": "y sus 4 discos debut", "f": "type", "size": 56, "y": 1040, "d": 0.9},
+   {"s": "en orden de salida", "f": "type", "size": 46, "y": 1120, "c": "dim", "d": 1.4}
+  ]},
+  {"t0": 3.6, "dur": 6.0, "els": [
+   {"s": "#1 · 25 de julio de 1983", "f": "type", "size": 52, "y": 640},
+   {"s": "METALLICA", "f": "anton", "size": 170, "y": 800, "slam": true, "d": 0.35, "bar": 560},
+   {"s": "«Kill 'Em All»", "f": "oswb", "size": 62, "y": 1000, "d": 1.0},
+   {"s": "grabado en Rochester", "f": "oswb", "size": 58, "y": 1090, "d": 1.6},
+   {"s": "Nueva York, en mayo de 1983", "f": "type", "size": 44, "y": 1170, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 9.6, "dur": 6.2, "els": [
+   {"s": "#2 · 3 de diciembre de 1983", "f": "type", "size": 52, "y": 640},
+   {"s": "SLAYER", "f": "anton", "size": 180, "y": 800, "c": "red", "slam": true, "d": 0.35, "bar": 480},
+   {"s": "«Show No Mercy»", "f": "oswb", "size": 62, "y": 1000, "d": 1.0},
+   {"s": "lo pagaron ellos mismos:", "f": "oswb", "size": 56, "y": 1090, "d": 1.6},
+   {"s": "ahorros de Tom Araya y un", "f": "type", "size": 42, "y": 1165, "c": "dim", "d": 2.1},
+   {"s": "préstamo del papá de Kerry King", "f": "type", "size": 42, "y": 1225, "c": "dim", "d": 2.4}
+  ]},
+  {"t0": 15.8, "dur": 6.0, "els": [
+   {"s": "#3 · 6 de enero de 1984", "f": "type", "size": 52, "y": 640},
+   {"s": "ANTHRAX", "f": "anton", "size": 180, "y": 800, "slam": true, "d": 0.35, "bar": 520},
+   {"s": "«Fistful of Metal»", "f": "oswb", "size": 62, "y": 1000, "d": 1.0},
+   {"s": "con Neil Turbin en la voz", "f": "oswb", "size": 56, "y": 1090, "d": 1.6},
+   {"s": "su primer cantante", "f": "type", "size": 44, "y": 1170, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 21.8, "dur": 6.2, "els": [
+   {"s": "#4 · 12 de junio de 1985 (EE.UU.)", "f": "type", "size": 46, "y": 640},
+   {"s": "MEGADETH", "f": "anton", "size": 170, "y": 800, "c": "red", "slam": true, "d": 0.35, "bar": 560},
+   {"s": "«Killing Is My Business...»", "f": "oswb", "size": 54, "y": 1000, "d": 1.0},
+   {"s": "el sello les dio 8.000 dólares", "f": "oswb", "size": 52, "y": 1090, "d": 1.6},
+   {"s": "para grabarlo", "f": "type", "size": 44, "y": 1170, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 28.0, "dur": 5.4, "els": [
+   {"s": "Orden de salida, no de ranking", "f": "type", "size": 46, "y": 640, "c": "dim"},
+   {"s": "¿CUÁL ES", "f": "anton", "size": 170, "y": 800, "slam": true, "d": 0.3},
+   {"s": "TU FAVORITO?", "f": "anton", "size": 160, "y": 980, "c": "red", "slam": true, "d": 0.6},
+   {"s": "Contame abajo", "f": "type", "size": 52, "y": 1170, "d": 1.4}
+  ]}
+ ]
+}
