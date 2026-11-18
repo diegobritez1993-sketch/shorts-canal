@@ -227,7 +227,7 @@ def sfx_events(S):
             if e.get("bar"): ev.append((at + 0.05, sfx_swipe()))
     return ev
 
-def mixdown(total, S, out, bpm=140, root=40, musica=True, vol_musica=0.7):
+def mixdown(total, S, out, bpm=140, root=40, musica=False, vol_musica=0.7):
     # música: hard rock con guitarra y batería REALES grabadas (motor/rock.py)
     import rock
     n = int(total * SR)
@@ -294,7 +294,7 @@ if __name__ == "__main__":
         sheet.save(out, quality=85)
     else:
         rng = np.random.default_rng(j.get("seed", 3))
-        mixdown(total, S, out + ".wav", j.get("bpm", 140), j.get("tono", 40), j.get("musica", True), j.get("vol_musica", 0.7))
+        mixdown(total, S, out + ".wav", j.get("bpm", 140), j.get("tono", 40), False, j.get("vol_musica", 0.7))  # pedido de Diego 18/11/2026: SIN música de fondo, solo efectos
         render(S, out)
         os.remove(out + ".wav")
         print("ok", out)

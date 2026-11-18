@@ -13,7 +13,7 @@ sin fotos de artistas ni canciones de las bandas, firma @diegoeditspy, sin "Rock
   Que el dato de las 12:30, el top de las 18:30 y la story de las 20:00 del mismo día no repitan banda.
 - Nada de opiniones presentadas como hechos ("la mejor banda", "la más grande"): los tops se presentan
   como selección ("3 discos para empezar con...") y cada dato del top tiene que ser verificable (año, disco, ciudad).
-- **Efectos de sonido obligatorios** (pedido de Diego): el motor ya mete whoosh en cada transición, impacto en cada título que golpea (`slam`), tecleo en los textos `type`, tick en los demás y swipe en el subrayado (`bar`). Que cada escena tenga al menos un elemento `slam` o `type`. Si hace falta, `"musica": false` deja solo los efectos; `"vol_musica"` (0.7 por defecto) baja o sube la música.
+- **Efectos de sonido obligatorios** (pedido de Diego): el motor ya mete whoosh en cada transición, impacto en cada título que golpea (`slam`), tecleo en los textos `type`, tick en los demás y swipe en el subrayado (`bar`). Que cada escena tenga al menos un elemento `slam` o `type`. **SIN música de fondo** (pedido de Diego 18/11/2026): el motor solo pone los efectos, nada de fondo. No agregar música salvo que Diego lo pida.
 - Mismo motor: `motor/story.py datos.json salida.mp4 [preview]`. En Reels poné `"footer_y": 1360`
   (abajo Instagram tapa con la descripción). Mirá la hoja de preview antes del render y cuadros del mp4 después.
 - Archivos: `reels/datos/AAAA-MM-DD_HHMM.json` y `reels/publicados/AAAA-MM-DD_HHMM.mp4`

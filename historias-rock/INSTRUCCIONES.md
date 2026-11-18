@@ -16,10 +16,8 @@ del mismo país ni de la misma banda). Español con voseo.
 - Nada de rumores ni de muertes recientes tratadas con morbo. Tono de "dato curioso" respetuoso.
 - **Sin fotos ni videos de artistas ni tapas de discos** (derechos de autor y política propia): solo
   el diseño tipográfico del motor. **Sin canciones de las bandas**: la música la genera el motor.
-- **Música = hard rock con instrumentos REALES grabados** (pedido de Diego 17/11/2026: nada de sonido sintetizado tipo videojuego).
-  `motor/rock.py` arma un riff original con guitarra eléctrica y batería acústica grabadas (CC0, en `motor/samples/`,
-  ver `LICENCIA.txt`), con distorsión de amplificador. Requiere `pip install soundfile scipy --break-system-packages`.
-  No volver al sintetizador viejo.
+- **SIN MÚSICA DE FONDO** (pedido de Diego 18/11/2026): solo efectos de sonido. El motor ya no pone música
+  (ignora `musica`/`bpm`/`tono`). No volver a agregar música de ningún tipo salvo que Diego lo pida.
 - Diseño aprobado por Diego (no cambiarlo): fondo negro con grano, títulos Anton que golpean,
   firma **@diegoeditspy** abajo y la fuente debajo. **NO poner "Rock en Ascenso"**.
 - Dejá libres arriba (y < 450) y abajo (y > 1700): ahí Instagram pone su interfaz.
