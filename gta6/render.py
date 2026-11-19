@@ -48,6 +48,8 @@ def render(name, src, kind, hook, credit, ss=0, to=None, cam=None, hdr=True, gam
     subprocess.run(cmd, check=True)
     print("ok", name)
 
+import os as _os
+STREAMER_X = _os.environ.get("STREAMER_X", "")
 JOBS = {
  "1_buceo": dict(src="v1.mp4", kind="v", hook="ALGO SALE MAL BUCEANDO EN GTA VI", credit="@AURONPLAY"),
  "2_tesoro": dict(src="v2.mp4", kind="v", hook="¿HAY TESOROS BAJO EL MAR?", credit="@AURONPLAY", to=18),
@@ -55,6 +57,11 @@ JOBS = {
  "4_doblones": dict(src="h2.mp4", kind="h", hook="¡ENCONTRARON DOBLONES ESPAÑOLES!", credit="@AURONPLAY", cam=(10, 380, 356, 375)),
  "6_fieston": dict(src="h3.mp4", kind="h", hook="DUNK LA LÍA... Y QUIERE MONTAR UN FIESTÓN", credit="@AXOZER", to=37, cam=(1495, 100, 415, 370), game="fit"),
  "7_robar_moto": dict(src="h4.mp4", kind="h", hook="TE PIDE ROBAR UNA MOTO \"POR SU BIEN\"", credit="@AURONPLAY", cam=(10, 380, 356, 375)),
+ "d2_1_grulla": dict(src="h8.mp4", kind="h", hook="AURON ATRAPA UNA GRULLA CON LAS MANOS", credit="@AURONPLAY", ss=8, to=46, cam=(10, 380, 356, 375)),
+ "d2_2_sigilo": dict(src="h5.mp4", kind="h", hook="AURON EN MODO SIGILO EN LOS PANTANOS", credit="@AURONPLAY", cam=(10, 380, 356, 375)),
+ "d2_3_pelea": dict(src="h7.mp4", kind="h", hook="SE ARMA UNA PELEA EN LA CÁRCEL", credit=STREAMER_X, cam=(12, 12, 390, 355), game="fit"),
+ "d2_4_carcel": dict(src="h6.mp4", kind="h", hook="LUCÍA EN LA CÁRCEL (SPOILER)", credit=STREAMER_X, to=45, cam=(12, 12, 390, 355), game="fit"),
+ "d2_5_lucia": dict(src="h9.mp4", kind="h", hook="POR QUÉ LUCÍA ACABÓ PRESA (SPOILER)", credit=STREAMER_X, to=50, cam=(12, 12, 390, 355), game="fit"),
 }
 if __name__ == "__main__":
     for n in (sys.argv[1:] or JOBS):
