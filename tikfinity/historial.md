@@ -21,10 +21,16 @@
 | 2026-11-17 | 21:00 | Short | Espiá cómo usan TikFinity los streamers que la rompen | publicados/s13_canales.mp4 |
 | 2026-11-18 | 21:00 | Short | Que tu público maneje tu GTA 5 con regalos (TikFinity) | publicados/s14_gta.mp4 |
 | 2026-11-19 | 21:00 | Short | Regalos que aprietan teclas en tu PC (TikFinity) | publicados/s15_teclas.mp4 |
+| 2026-11-20 | 18:30 | Largo | 8 errores que ARRUINAN tu live de TikTok con TikFinity (OBS, Streamer.bot, Minecraft, metas) 2026 | publicados/tikfinity_errores.mp4 |
+| 2026-11-20 | 21:00 | Short | ¿Tu meta de TikFinity muestra otro número? Error común | publicados/s16_meta_titulo.mp4 |
+| 2026-11-21 | 21:00 | Short | ¿OBS no se conecta a TikFinity? Revisá estas 3 cosas | publicados/s17_obs_error.mp4 |
+| 2026-11-22 | 21:00 | Short | ¿Streamer.bot no responde a TikFinity? El paso olvidado | publicados/s18_streamerbot.mp4 |
+| 2026-11-23 | 21:00 | Short | ¿Los comandos de Minecraft van a todos? (TikFinity) | publicados/s19_mc_nombre.mp4 |
 
 Temas ya cubiertos: configuración general, conexión/offline, puntos y niveles, bono suscriptores,
 OBS, Streamer.bot, Minecraft, superposiciones, metas (likes, follows, shares, viewers, subs),
 novedades (app escritorio, Voicemod, miembros de equipo),
 FAQ/problemas comunes (no conecta, alertas mudas, pantallas offline, filtro TTS, Minecraft, celular, clave de stream, lives limitados),
-ideas para un live interactivo (canales en directo, transacciones, GTA 5, simulación de teclas, Acciones y Eventos).
-Próximo número de Short: s16. Próximo episodio largo: ep.5 (long5.py, prefijo l5_). Ep.4 scripts en motor/ (long4.py, l4_audio.py, shorts4.py, thumb4.py; hojas de contacto: sheet.py long4 out.png / sheet_s.py nombres).
+ideas para un live interactivo (canales en directo, transacciones, GTA 5, simulación de teclas, Acciones y Eventos),
+errores comunes de configuración (conectar antes del live, usuario, OBS 28/WebSocket, Streamer.bot servidor, Minecraft mod+plugin y nombre de jugador, título de metas, puntos solo por regalos).
+Próximo número de Short: s20. Próximo episodio largo: ep.6 (long6.py, prefijo l6_). Ep.5 scripts en motor/ (long5.py, l5_audio.py, shorts5.py, thumb5.py, sheet_s5.py; hojas de contacto: sheet.py long4 out.png / sheet_s.py nombres).
