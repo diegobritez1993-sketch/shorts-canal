@@ -1,0 +1,192 @@
+{
+ "tema": "Black Sabbath antes se llamaba Earth y tomó su nombre de una película de terror de 1963",
+ "fuente": "Fuente: American Songwriter, «Behind the Meaning and History of the Band Name: Black Sabbath» (2022)",
+ "url_fuente": "https://americansongwriter.com/behind-the-meaning-and-history-of-the-band-name-black-sabbath/",
+ "seed": 23,
+ "bpm": 132,
+ "tono": 40,
+ "escenas": [
+  {
+   "t0": 0.0,
+   "dur": 3.0,
+   "els": [
+    {
+     "s": "¿SABÍAS",
+     "f": "anton",
+     "size": 190,
+     "y": 820,
+     "slam": true
+    },
+    {
+     "s": "QUE...?",
+     "f": "anton",
+     "size": 190,
+     "y": 1020,
+     "c": "red",
+     "slam": true,
+     "d": 0.35
+    }
+   ]
+  },
+  {
+   "t0": 3.0,
+   "dur": 3.6,
+   "els": [
+    {
+     "s": "BLACK SABBATH",
+     "f": "anton",
+     "size": 130,
+     "y": 760,
+     "slam": true,
+     "bar": 520
+    },
+    {
+     "s": "antes se llamaba",
+     "f": "type",
+     "size": 56,
+     "y": 900,
+     "d": 0.6
+    },
+    {
+     "s": "EARTH",
+     "f": "anton",
+     "size": 190,
+     "y": 1050,
+     "c": "red",
+     "slam": true,
+     "d": 1.2
+    }
+   ]
+  },
+  {
+   "t0": 6.6,
+   "dur": 3.8,
+   "els": [
+    {
+     "s": "Pero los confundían con",
+     "f": "type",
+     "size": 50,
+     "y": 680
+    },
+    {
+     "s": "otra banda inglesa",
+     "f": "type",
+     "size": 50,
+     "y": 750,
+     "d": 0.3
+    },
+    {
+     "s": "que también se llamaba Earth",
+     "f": "type",
+     "size": 50,
+     "y": 820,
+     "d": 0.6
+    },
+    {
+     "s": "HABÍA QUE",
+     "f": "anton",
+     "size": 150,
+     "y": 960,
+     "slam": true,
+     "d": 1.2
+    },
+    {
+     "s": "CAMBIAR",
+     "f": "anton",
+     "size": 150,
+     "y": 1110,
+     "c": "red",
+     "slam": true,
+     "d": 1.5
+    }
+   ]
+  },
+  {
+   "t0": 10.4,
+   "dur": 3.8,
+   "els": [
+    {
+     "s": "Frente a su sala de ensayo,",
+     "f": "type",
+     "size": 50,
+     "y": 640
+    },
+    {
+     "s": "un cine daba una película",
+     "f": "type",
+     "size": 50,
+     "y": 710,
+     "d": 0.3
+    },
+    {
+     "s": "de terror con Boris Karloff:",
+     "f": "type",
+     "size": 50,
+     "y": 780,
+     "d": 0.6
+    },
+    {
+     "s": "BLACK SABBATH",
+     "f": "anton",
+     "size": 130,
+     "y": 930,
+     "c": "red",
+     "slam": true,
+     "d": 1.1
+    },
+    {
+     "s": "(1963)",
+     "f": "oswb",
+     "size": 56,
+     "y": 1060,
+     "c": "dim",
+     "d": 1.4
+    }
+   ]
+  },
+  {
+   "t0": 14.2,
+   "dur": 3.6,
+   "els": [
+    {
+     "s": "Geezer Butler y Ozzy escribieron",
+     "f": "oswb",
+     "size": 52,
+     "y": 680
+    },
+    {
+     "s": "una canción con ese título",
+     "f": "oswb",
+     "size": 52,
+     "y": 750,
+     "d": 0.3
+    },
+    {
+     "s": "Y LA BANDA",
+     "f": "anton",
+     "size": 150,
+     "y": 880,
+     "slam": true,
+     "d": 0.8
+    },
+    {
+     "s": "SE RENOMBRÓ",
+     "f": "anton",
+     "size": 150,
+     "y": 1045,
+     "c": "red",
+     "slam": true,
+     "d": 1.1
+    },
+    {
+     "s": "Inglaterra · 1969",
+     "f": "oswb",
+     "size": 52,
+     "y": 1200,
+     "c": "dim",
+     "d": 1.5
+    }
+   ]
+  }
+ ]
+}
