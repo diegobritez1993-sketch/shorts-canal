@@ -1,0 +1,45 @@
+{
+ "tema": "Top: 3 bandas del metal paraguayo que tenés que conocer (Nash, Rawhide, Kuazar)",
+ "fuente": "Fuentes: La Nación (PY) · Hoy (PY)",
+ "url_fuente": "https://www.lanacion.com.py/gran-diario-domingo/2020/07/26/nash-la-primera-banda-nacional-de-heavy-metal/",
+ "seed": 84,
+ "bpm": 160,
+ "tono": 40,
+ "footer_y": 1360,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.8, "els": [
+   {"s": "3 BANDAS", "f": "anton", "size": 180, "y": 680, "slam": true},
+   {"s": "DEL METAL", "f": "anton", "size": 160, "y": 870, "slam": true, "d": 0.35},
+   {"s": "PARAGUAYO", "f": "anton", "size": 160, "y": 1040, "c": "red", "slam": true, "d": 0.7},
+   {"s": "que tenés que conocer", "f": "type", "size": 54, "y": 1220, "d": 1.2}
+  ]},
+  {"t0": 3.8, "dur": 6.4, "els": [
+   {"s": "#1 · 1984", "f": "type", "size": 56, "y": 640},
+   {"s": "NASH", "f": "anton", "size": 210, "y": 790, "slam": true, "d": 0.35, "bar": 420},
+   {"s": "considerada la primera banda", "f": "oswb", "size": 54, "y": 1030, "d": 1.0},
+   {"s": "de heavy metal del Paraguay", "f": "oswb", "size": 54, "y": 1100, "d": 1.4},
+   {"s": "nació entre compañeros del", "f": "type", "size": 42, "y": 1185, "c": "dim", "d": 2.0},
+   {"s": "Colegio Nacional de la Capital", "f": "type", "size": 42, "y": 1240, "c": "dim", "d": 2.3}
+  ]},
+  {"t0": 10.2, "dur": 6.4, "els": [
+   {"s": "#2 · 1984 · Asunción", "f": "type", "size": 56, "y": 640},
+   {"s": "RAWHIDE", "f": "anton", "size": 190, "y": 790, "c": "red", "slam": true, "d": 0.35, "bar": 520},
+   {"s": "pionera del thrash paraguayo", "f": "oswb", "size": 54, "y": 1030, "d": 1.0},
+   {"s": "surgida en el Colegio Goethe", "f": "oswb", "size": 54, "y": 1100, "d": 1.4},
+   {"s": "demo «No esperes piedad» (1987)", "f": "type", "size": 42, "y": 1185, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 16.6, "dur": 6.6, "els": [
+   {"s": "#3 · Ciudad del Este", "f": "type", "size": 56, "y": 640},
+   {"s": "KUAZAR", "f": "anton", "size": 200, "y": 790, "slam": true, "d": 0.35, "bar": 480},
+   {"s": "debut: «Wrath of God» (2010)", "f": "oswb", "size": 52, "y": 1030, "d": 1.0},
+   {"s": "en junio de 2026 tocó en", "f": "oswb", "size": 54, "y": 1100, "d": 1.4},
+   {"s": "Hellfest y Graspop, en Europa", "f": "type", "size": 44, "y": 1180, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 23.2, "dur": 5.4, "els": [
+   {"s": "Orden cronológico, no ranking", "f": "type", "size": 46, "y": 640, "c": "dim"},
+   {"s": "¿CUÁL", "f": "anton", "size": 180, "y": 790, "slam": true, "d": 0.3},
+   {"s": "AGREGARÍAS?", "f": "anton", "size": 160, "y": 980, "c": "red", "slam": true, "d": 0.6},
+   {"s": "Contame abajo", "f": "type", "size": 52, "y": 1170, "d": 1.4}
+  ]}
+ ]
+}
