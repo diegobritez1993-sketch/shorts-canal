@@ -13,16 +13,16 @@ def esc(t):
 def header(hook, credit, dur):
     size = 76 if len(hook) <= 26 else max(54, int(76 * 26 / len(hook)))
     f = [
-        "drawbox=x=0:y=0:w=1080:h=210:color=0x0E0E10:t=fill",
-        f"drawbox=x=0:y=0:w='1080*t/{dur}':h=10:color={Y}:t=fill",
-        f"drawtext=fontfile={ARCH}:text='GTA VI CLIPS · CASTELLANO':fontsize=30:fontcolor={Y}:x=40:y=34",
-        f"drawtext=fontfile={ANTON}:text='{esc(hook)}':fontsize={size}:fontcolor=white:x=(w-text_w)/2:y=88+(96-{size})/2",
+        "drawbox=x=0:y=0:w=1080:h=330:color=0x0E0E10:t=fill",
+        f"drawbox=x=0:y=322:w='1080*t/{dur}':h=8:color={Y}:t=fill",
+        f"drawtext=fontfile={ARCH}:text='GTA VI CLIPS · CASTELLANO':fontsize=30:fontcolor={Y}:x=40:y=150",
+        f"drawtext=fontfile={ANTON}:text='{esc(hook)}':fontsize={size}:fontcolor=white:x=(w-text_w)/2:y=262-max_glyph_a",
     ]
     cta = f"enable='gte(t,{dur}-4)'"
     f.append(f"drawbox=x=90:y=1530:w=900:h=120:color={Y}:t=fill:{cta}")
     f.append(f"drawtext=fontfile={ANTON}:text='SUSCRÍBETE PARA TODO SOBRE GTA VI':fontsize=60:fontcolor=0x0E0E10:x=(w-text_w)/2:y=1530+(120-text_h)/2:{cta}")
     if credit:
-        f.append(f"drawtext=fontfile={ARCH}:text='{esc(credit)}':fontsize=26:fontcolor=0xBBBBBB:x=w-text_w-40:y=38")
+        f.append(f"drawtext=fontfile={ARCH}:text='{esc(credit)}':fontsize=26:fontcolor=0xBBBBBB:x=w-text_w-40:y=154")
     return ",".join(f)
 
 def render(name, src, kind, hook, credit, ss=0, to=None, cam=None, hdr=True, game="crop"):
@@ -30,15 +30,15 @@ def render(name, src, kind, hook, credit, ss=0, to=None, cam=None, hdr=True, gam
     if kind == "v":
         fc = (f"[0:v]split[a][b];"
               f"[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:2,eq=brightness=-0.25[bg];"
-              f"[b]scale=-2:1710[fg];"
-              f"[bg][fg]overlay=(W-w)/2:210,")
+              f"[b]scale=-2:1590[fg];"
+              f"[bg][fg]overlay=(W-w)/2:330,")
     else:
         cx, cy, cw, ch = cam
         fc = (f"[0:v]split=3[a][b][c];"
               f"[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:2,eq=brightness=-0.3[bg];"
-              f"[b]crop={cw}:{ch}:{cx}:{cy},scale=-2:620[cam];"
+              f"[b]crop={cw}:{ch}:{cx}:{cy},scale=-2:560[cam];"
               + (f"[c]scale=-2:860,crop=1080:860[game];" if game == "crop" else f"[c]scale=1080:-2[game];") +
-              f"[bg][cam]overlay=(W-w)/2:240[t1];[t1][game]overlay=0:870,")
+              f"[bg][cam]overlay=(W-w)/2:350[t1];[t1][game]overlay=0:930,")
     fc += (header(hook, credit, dur) + "," if hdr else "") + "fps=30,format=yuv420p[v];[0:a]loudnorm=I=-14:TP=-1.5:LRA=11[aout]"
     cmd = ["ffmpeg", "-v", "error", "-y", "-ss", str(ss)]
     if to: cmd += ["-to", str(to)]
