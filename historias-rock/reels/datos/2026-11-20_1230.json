@@ -1,0 +1,224 @@
+{
+ "tema": "Guns N' Roses nació de juntar dos bandas: Hollywood Rose (Axl Rose) y L.A. Guns (Tracii Guns), en marzo de 1985",
+ "fuente": "Fuentes: Radio X (2024) · American Songwriter",
+ "url_fuente": "https://amp.radiox.co.uk/artists/guns-n-roses/how-did-they-form-and-make-band-name/",
+ "seed": 93,
+ "bpm": 148,
+ "tono": 43,
+ "footer_y": 1360,
+ "escenas": [
+  {
+   "t0": 0.0,
+   "dur": 3.6,
+   "els": [
+    {
+     "s": "¿DE DÓNDE",
+     "f": "anton",
+     "size": 160,
+     "y": 700,
+     "slam": true
+    },
+    {
+     "s": "SALIÓ EL NOMBRE",
+     "f": "anton",
+     "size": 130,
+     "y": 880,
+     "slam": true,
+     "d": 0.3
+    },
+    {
+     "s": "GUNS N' ROSES?",
+     "f": "anton",
+     "size": 140,
+     "y": 1040,
+     "c": "red",
+     "slam": true,
+     "d": 0.6
+    }
+   ]
+  },
+  {
+   "t0": 3.6,
+   "dur": 4.6,
+   "els": [
+    {
+     "s": "Los Ángeles, 1983",
+     "f": "type",
+     "size": 56,
+     "y": 660
+    },
+    {
+     "s": "Axl Rose arma",
+     "f": "oswb",
+     "size": 58,
+     "y": 735,
+     "d": 0.4
+    },
+    {
+     "s": "HOLLYWOOD",
+     "f": "anton",
+     "size": 170,
+     "y": 880,
+     "slam": true,
+     "d": 0.7
+    },
+    {
+     "s": "ROSE",
+     "f": "anton",
+     "size": 190,
+     "y": 1060,
+     "c": "red",
+     "slam": true,
+     "d": 1.0,
+     "bar": 360
+    }
+   ]
+  },
+  {
+   "t0": 8.2,
+   "dur": 4.6,
+   "els": [
+    {
+     "s": "Ese mismo año, Tracii Guns",
+     "f": "type",
+     "size": 54,
+     "y": 660
+    },
+    {
+     "s": "funda su propia banda:",
+     "f": "oswb",
+     "size": 56,
+     "y": 740,
+     "d": 0.4
+    },
+    {
+     "s": "L.A. GUNS",
+     "f": "anton",
+     "size": 190,
+     "y": 880,
+     "c": "red",
+     "slam": true,
+     "d": 0.8,
+     "bar": 560
+    }
+   ]
+  },
+  {
+   "t0": 12.8,
+   "dur": 4.8,
+   "els": [
+    {
+     "s": "En marzo de 1985",
+     "f": "type",
+     "size": 56,
+     "y": 660
+    },
+    {
+     "s": "las dos bandas se fusionan",
+     "f": "oswb",
+     "size": 56,
+     "y": 740,
+     "d": 0.4
+    },
+    {
+     "s": "GUNS",
+     "f": "anton",
+     "size": 190,
+     "y": 880,
+     "slam": true,
+     "d": 0.8
+    },
+    {
+     "s": "N' ROSES",
+     "f": "anton",
+     "size": 190,
+     "y": 1060,
+     "c": "red",
+     "slam": true,
+     "d": 1.1,
+     "bar": 560
+    }
+   ]
+  },
+  {
+   "t0": 17.6,
+   "dur": 4.6,
+   "els": [
+    {
+     "s": "Antes descartaron nombres como",
+     "f": "type",
+     "size": 50,
+     "y": 660
+    },
+    {
+     "s": "HEADS OF",
+     "f": "anton",
+     "size": 170,
+     "y": 780,
+     "slam": true,
+     "d": 0.5
+    },
+    {
+     "s": "AMAZON",
+     "f": "anton",
+     "size": 170,
+     "y": 960,
+     "c": "red",
+     "slam": true,
+     "d": 0.8
+    },
+    {
+     "s": "y Tracii se fue tras una pelea con Axl:",
+     "f": "oswb",
+     "size": 46,
+     "y": 1170,
+     "d": 1.5
+    },
+    {
+     "s": "así entró Slash",
+     "f": "oswb",
+     "size": 52,
+     "y": 1235,
+     "c": "dim",
+     "d": 1.9
+    }
+   ]
+  },
+  {
+   "t0": 22.2,
+   "dur": 5.0,
+   "els": [
+    {
+     "s": "Un nombre hecho con",
+     "f": "type",
+     "size": 56,
+     "y": 660
+    },
+    {
+     "s": "2 BANDAS",
+     "f": "anton",
+     "size": 180,
+     "y": 800,
+     "c": "red",
+     "slam": true,
+     "d": 0.4
+    },
+    {
+     "s": "¿LO SABÍAS?",
+     "f": "anton",
+     "size": 130,
+     "y": 1000,
+     "slam": true,
+     "d": 1.0
+    },
+    {
+     "s": "Contame abajo",
+     "f": "type",
+     "size": 52,
+     "y": 1170,
+     "d": 1.6
+    }
+   ]
+  }
+ ]
+}

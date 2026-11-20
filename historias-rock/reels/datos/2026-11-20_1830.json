@@ -1,0 +1,44 @@
+{
+ "tema": "Top: 3 discos del punk británico de 1977 (Damned Damned Damned, The Clash, Never Mind the Bollocks)",
+ "fuente": "Fuentes: Wikipedia · Diffuser.fm (2017) · sexpistolsofficial.com",
+ "url_fuente": "https://en.wikipedia.org/wiki/Damned_Damned_Damned",
+ "seed": 117,
+ "bpm": 165,
+ "tono": 39,
+ "footer_y": 1360,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.8, "els": [
+   {"s": "3 DISCOS", "f": "anton", "size": 180, "y": 680, "slam": true},
+   {"s": "DEL PUNK", "f": "anton", "size": 160, "y": 870, "slam": true, "d": 0.35},
+   {"s": "DE 1977", "f": "anton", "size": 170, "y": 1040, "c": "red", "slam": true, "d": 0.7},
+   {"s": "el año que explotó en Inglaterra", "f": "type", "size": 48, "y": 1230, "d": 1.2}
+  ]},
+  {"t0": 3.8, "dur": 6.4, "els": [
+   {"s": "#1 · 18 de febrero", "f": "type", "size": 56, "y": 640},
+   {"s": "THE DAMNED", "f": "anton", "size": 170, "y": 780, "slam": true, "d": 0.35, "bar": 600},
+   {"s": "«Damned Damned Damned»", "f": "oswb", "size": 54, "y": 1010, "d": 1.0},
+   {"s": "el primer LP de una banda punk del Reino Unido", "f": "oswb", "size": 40, "y": 1085, "d": 1.4},
+   {"s": "sello Stiff · producido por Nick Lowe", "f": "type", "size": 40, "y": 1170, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 10.2, "dur": 6.4, "els": [
+   {"s": "#2 · 8 de abril", "f": "type", "size": 56, "y": 640},
+   {"s": "THE CLASH", "f": "anton", "size": 180, "y": 780, "c": "red", "slam": true, "d": 0.35, "bar": 560},
+   {"s": "su debut, grabado en", "f": "oswb", "size": 54, "y": 1010, "d": 1.0},
+   {"s": "una serie de fines de semana", "f": "oswb", "size": 54, "y": 1080, "d": 1.4},
+   {"s": "CBS · puesto 12 en Inglaterra", "f": "type", "size": 42, "y": 1170, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 16.6, "dur": 6.6, "els": [
+   {"s": "#3 · 28 de octubre", "f": "type", "size": 56, "y": 640},
+   {"s": "SEX PISTOLS", "f": "anton", "size": 160, "y": 780, "slam": true, "d": 0.35, "bar": 600},
+   {"s": "«Never Mind the Bollocks»", "f": "oswb", "size": 52, "y": 1000, "d": 1.0},
+   {"s": "su único disco de estudio", "f": "oswb", "size": 54, "y": 1075, "d": 1.4},
+   {"s": "Virgin · entró directo al Nº 1", "f": "type", "size": 42, "y": 1165, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 23.2, "dur": 5.4, "els": [
+   {"s": "Orden cronológico, no ranking", "f": "type", "size": 46, "y": 640, "c": "dim"},
+   {"s": "¿CUÁL", "f": "anton", "size": 180, "y": 790, "slam": true, "d": 0.3},
+   {"s": "AGREGARÍAS?", "f": "anton", "size": 160, "y": 980, "c": "red", "slam": true, "d": 0.6},
+   {"s": "Contame abajo", "f": "type", "size": 52, "y": 1170, "d": 1.4}
+  ]}
+ ]
+}
