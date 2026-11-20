@@ -41,6 +41,29 @@ Si ya pasaron esas horas, programar para mañana a las mismas horas. Antes de pr
 7. **Actualizar `historial.md`** con una fila por video (fecha, hora, pilar, tema, dato/fuente, archivo) y hacer push.
 8. Mandar al usuario (SendUserMessage) un resumen corto: los 2 títulos, horarios y el link del planner de Metricool.
 
+## Videos LARGOS (martes y viernes, 18:00) — tarea aparte
+Se hacen en una ejecución programada distinta (martes y viernes a la mañana). Los Shorts siguen igual, siempre.
+1. Leer `historial_largos.md` (no repetir tema ni enfoque) y también `historial.md`: un largo PUEDE profundizar temas de
+   Shorts que funcionaron (agrupar 5 ideas de un mismo pilar), pero con ángulo y título nuevos.
+2. Formato fijo: **horizontal 16:9 (1920x1080), 3:00 exactos** (si fuera vertical YouTube lo toma como Short).
+   Estructura "Top 5": intro 0-12 s (gancho + "5 ...") · 5 capítulos de 32 s (tarjeta "#N" 3 s + 7 ideas, una cada 4 s,
+   la última siempre "EL TRUCO PARA FRENAR" o el consejo práctico) · cierre 172-180 (repaso, pregunta para comentar,
+   SUSCRIBITE, marca). Sin voz: texto + sonidos ASMR + colchón ambiental (lo pone el motor).
+3. Copiar `largos/2026-11-20_5-trucos-de-las-apps.py` a `largos/AAAA-MM-DD_slug.py` y usar `motor/engine_largo.py`
+   (`chapter()`, `chapter_sounds()`, `pop_fit`, `slide_fit`, `text_fit`). Un visual animado DISTINTO por capítulo
+   (panel izquierdo), dibujado con las primitivas del motor. Titulares cortos (≤ 26 caracteres), subtítulos ≤ 50.
+   Fuente de cada capítulo abajo a la derecha. Verificar TODOS los datos (WebSearch/WebFetch) como en los Shorts.
+4. Preview: `python largos/X.py preview /tmp/pl 2.5 6 11 13.5 22 50 85 124 160 174 177.5 179.5` y MIRAR la hoja.
+   Build: `python largos/X.py build publicados_largos/AAAA-MM-DD_slug.mp4` (~3 min de render).
+5. `git pull --rebase` → commit → push → `curl -sI` a la URL raw (debe dar 200).
+6. Metricool `createScheduledPost` (blogId 7762882, 18:00 America/Asuncion del mismo día; revisar con getScheduledPosts
+   que no esté ocupado): providers SOLO youtube; `youtubeData` con `"type": "video"` (NO short), público, madeForKids false,
+   EDUCATION, tags. Título con 1 emoji. Descripción: 1-2 frases + **Capítulos** (0:00 Intro, 0:12, 0:44, 1:16, 1:48,
+   2:20, 2:52 Final) + **Fuentes** + "Seguí el canal para más avisos ⚠️" + **exactamente 3 hashtags**
+   (`#nodigasquenoteavisé` + 2 del tema; sin #shorts).
+7. Agregar la fila a `historial_largos.md`, push, y resumen a Diego (título, hora, link del planner).
+   Si Metricool falla por plan/cuota: modo manual (igual que los Shorts, pero con la descripción completa con capítulos).
+
 ## Modo manual (cuando Metricool no deja publicar automático)
 El plan de Metricool puede quedarse sin publicaciones automáticas. En ese caso NO se frena la producción:
 - Si `createScheduledPost` devuelve un error de límite/plan/cuota (o cualquier rechazo que no sea por el contenido), o si existe
