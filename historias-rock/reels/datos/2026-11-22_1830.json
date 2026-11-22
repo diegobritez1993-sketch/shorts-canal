@@ -1,0 +1,44 @@
+{
+ "tema": "Top: 3 hitos de Barón Rojo (heavy español): primer show en Leganés 16/8/1980; debut «Larga vida al rock and roll» 27/4/1981; «Volumen brutal» grabado en Londres en el estudio de Ian Gillan y show en el Festival de Reading el 27/8/1982",
+ "fuente": "Fuente: elDiario.es, «Rollo rock: recorrido por el Madrid periférico del heavy» (2021) · Wikipedia (Barón Rojo; Larga vida al rock and roll)",
+ "url_fuente": "https://en.wikipedia.org/wiki/Bar%C3%B3n_Rojo",
+ "seed": 318,
+ "bpm": 158,
+ "tono": 43,
+ "footer_y": 1360,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.8, "els": [
+   {"s": "3 HITOS", "f": "anton", "size": 190, "y": 680, "slam": true},
+   {"s": "DEL HEAVY ESPAÑOL", "f": "anton", "size": 110, "y": 860, "slam": true, "d": 0.35},
+   {"s": "BARÓN ROJO", "f": "anton", "size": 170, "y": 1020, "c": "red", "slam": true, "d": 0.7},
+   {"s": "Madrid, desde 1980", "f": "type", "size": 50, "y": 1210, "d": 1.2}
+  ]},
+  {"t0": 3.8, "dur": 6.4, "els": [
+   {"s": "#1 · 16 de agosto de 1980", "f": "type", "size": 54, "y": 640},
+   {"s": "LEGANÉS", "f": "anton", "size": 180, "y": 790, "slam": true, "d": 0.35, "bar": 560},
+   {"s": "primer show con el nombre Barón Rojo", "f": "oswb", "size": 48, "y": 1010, "d": 1.0},
+   {"s": "los hermanos Armando y Carlos de Castro", "f": "oswb", "size": 46, "y": 1080, "d": 1.4},
+   {"s": "venían de la banda Coz", "f": "type", "size": 42, "y": 1165, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 10.2, "dur": 6.4, "els": [
+   {"s": "#2 · 27 de abril de 1981", "f": "type", "size": 54, "y": 640},
+   {"s": "EL DEBUT", "f": "anton", "size": 180, "y": 790, "c": "red", "slam": true, "d": 0.35, "bar": 520},
+   {"s": "«Larga vida al rock and roll»", "f": "oswb", "size": 52, "y": 1010, "d": 1.0},
+   {"s": "grabado en Madrid en noviembre de 1980", "f": "oswb", "size": 44, "y": 1080, "d": 1.4},
+   {"s": "dedicado a la memoria de John Lennon", "f": "type", "size": 40, "y": 1165, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 16.6, "dur": 6.6, "els": [
+   {"s": "#3 · 1982", "f": "type", "size": 56, "y": 640},
+   {"s": "INGLATERRA", "f": "anton", "size": 170, "y": 790, "slam": true, "d": 0.35, "bar": 620},
+   {"s": "«Volumen brutal», grabado en Londres", "f": "oswb", "size": 48, "y": 1010, "d": 1.0},
+   {"s": "en el estudio de Ian Gillan (Deep Purple)", "f": "oswb", "size": 44, "y": 1080, "d": 1.4},
+   {"s": "y el 27/8/1982 tocaron en el Festival de Reading", "f": "type", "size": 36, "y": 1165, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 23.2, "dur": 5.4, "els": [
+   {"s": "Orden cronológico, no ranking", "f": "type", "size": 46, "y": 640, "c": "dim"},
+   {"s": "¿CUÁL", "f": "anton", "size": 180, "y": 790, "slam": true, "d": 0.3},
+   {"s": "AGREGARÍAS?", "f": "anton", "size": 160, "y": 980, "c": "red", "slam": true, "d": 0.6},
+   {"s": "Contame abajo", "f": "type", "size": 52, "y": 1170, "d": 1.4}
+  ]}
+ ]
+}

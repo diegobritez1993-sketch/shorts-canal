@@ -1,0 +1,43 @@
+{
+ "tema": "«Smells Like Teen Spirit» se llama así por un desodorante: Kathleen Hanna escribió «Kurt smells like Teen Spirit» en la pared de Cobain (Olympia, oct. 1990); Teen Spirit era el desodorante que usaba Tobi Vail; Cobain se enteró meses después de que salió el single (10/9/1991)",
+ "fuente": "Fuente: Mental Floss, «The Making of Smells Like Teen Spirit» · Louder, «17 facts about Smells Like Teen Spirit» (2018)",
+ "url_fuente": "https://www.mentalfloss.com/entertainment/music/making-smells-teen-spirit",
+ "seed": 97,
+ "bpm": 140,
+ "tono": 41,
+ "footer_y": 1360,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.4, "els": [
+   {"s": "¿DE DÓNDE", "f": "anton", "size": 170, "y": 700, "slam": true},
+   {"s": "SALIÓ EL TÍTULO", "f": "anton", "size": 120, "y": 880, "slam": true, "d": 0.3},
+   {"s": "TEEN SPIRIT?", "f": "anton", "size": 160, "y": 1050, "c": "red", "slam": true, "d": 0.6}
+  ]},
+  {"t0": 3.4, "dur": 4.8, "els": [
+   {"s": "Olympia, EE.UU., octubre de 1990", "f": "type", "size": 48, "y": 680},
+   {"s": "KATHLEEN HANNA", "f": "anton", "size": 130, "y": 840, "slam": true, "d": 0.4, "bar": 620},
+   {"s": "cantante de Bikini Kill", "f": "oswb", "size": 58, "y": 1010, "d": 1.0},
+   {"s": "y amiga de Kurt Cobain", "f": "oswb", "size": 58, "y": 1090, "d": 1.3}
+  ]},
+  {"t0": 8.2, "dur": 5.0, "els": [
+   {"s": "Escribió en la pared de su pieza:", "f": "type", "size": 48, "y": 680},
+   {"s": "\"KURT SMELLS", "f": "anton", "size": 140, "y": 850, "slam": true, "d": 0.4},
+   {"s": "LIKE TEEN SPIRIT\"", "f": "anton", "size": 120, "y": 1010, "c": "red", "slam": true, "d": 0.8}
+  ]},
+  {"t0": 13.2, "dur": 4.8, "els": [
+   {"s": "Kurt lo tomó como un cumplido", "f": "type", "size": 50, "y": 680},
+   {"s": "UN GRITO", "f": "anton", "size": 180, "y": 850, "slam": true, "d": 0.4},
+   {"s": "rebelde para una canción", "f": "oswb", "size": 60, "y": 1030, "d": 1.0}
+  ]},
+  {"t0": 18.0, "dur": 4.8, "els": [
+   {"s": "Pero Teen Spirit era...", "f": "type", "size": 56, "y": 680},
+   {"s": "UN DESODORANTE", "f": "anton", "size": 140, "y": 860, "c": "red", "slam": true, "d": 0.6, "bar": 640},
+   {"s": "el que usaba Tobi Vail, su novia", "f": "oswb", "size": 52, "y": 1030, "d": 1.2}
+  ]},
+  {"t0": 22.8, "dur": 5.6, "els": [
+   {"s": "Cobain se enteró recién", "f": "oswb", "size": 62, "y": 660},
+   {"s": "MESES DESPUÉS", "f": "anton", "size": 150, "y": 830, "slam": true, "d": 0.4},
+   {"s": "de que salió el single (10/9/1991)", "f": "oswb", "size": 50, "y": 1000, "d": 1.0},
+   {"s": "¿Lo sabías? Contame abajo", "f": "type", "size": 50, "y": 1180, "d": 1.8}
+  ]}
+ ]
+}
