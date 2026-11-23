@@ -1,0 +1,44 @@
+{
+ "tema": "El primer Rock in Rio (Jacarepaguá, enero de 1985, 10 días, Cidade do Rock de 250 mil m², más de 1 millón de personas) coincidió con la vuelta a la democracia: el 15/1/1985 el Colegio Electoral eligió a Tancredo Neves y esa noche Cazuza (Barão Vermelho) cerró su show con «Que o dia nasça lindo para todo mundo amanhã»",
+ "fuente": "Fuente: O Povo, «Rock in Rio 1985: relembre histórias da primeira edição» (2022) · CNN Brasil (2025) · Jornal Opção (2024)",
+ "url_fuente": "https://www.opovo.com.br/vidaearte/2022/09/10289705-rock-in-rio-1985-relembre-historias-da-primeira-edicao-do-festival.html",
+ "seed": 211,
+ "bpm": 146,
+ "tono": 40,
+ "footer_y": 1360,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.6, "els": [
+   {"s": "¿QUÉ PASÓ", "f": "anton", "size": 170, "y": 700, "slam": true},
+   {"s": "EN BRASIL EL", "f": "anton", "size": 120, "y": 880, "slam": true, "d": 0.3},
+   {"s": "15/1/1985?", "f": "anton", "size": 170, "y": 1050, "c": "red", "slam": true, "d": 0.6}
+  ]},
+  {"t0": 3.6, "dur": 5.0, "els": [
+   {"s": "Jacarepaguá, Río de Janeiro, 1985", "f": "type", "size": 46, "y": 680},
+   {"s": "ROCK IN RIO", "f": "anton", "size": 170, "y": 850, "slam": true, "d": 0.4, "bar": 640},
+   {"s": "la primera edición del festival", "f": "oswb", "size": 56, "y": 1030, "d": 1.0},
+   {"s": "10 días seguidos de rock", "f": "oswb", "size": 56, "y": 1110, "d": 1.3}
+  ]},
+  {"t0": 8.6, "dur": 5.0, "els": [
+   {"s": "La Cidade do Rock ocupaba", "f": "type", "size": 50, "y": 680},
+   {"s": "250.000 M²", "f": "anton", "size": 180, "y": 850, "slam": true, "d": 0.4},
+   {"s": "y pasaron más de 1 millón de personas", "f": "oswb", "size": 50, "y": 1040, "d": 1.0}
+  ]},
+  {"t0": 13.6, "dur": 5.0, "els": [
+   {"s": "Ese mismo 15 de enero, en Brasília...", "f": "type", "size": 46, "y": 680},
+   {"s": "TANCREDO NEVES", "f": "anton", "size": 130, "y": 850, "c": "red", "slam": true, "d": 0.4, "bar": 640},
+   {"s": "electo presidente por el Colegio Electoral", "f": "oswb", "size": 46, "y": 1020, "d": 1.0},
+   {"s": "el primer presidente tras el régimen militar", "f": "oswb", "size": 46, "y": 1090, "d": 1.3}
+  ]},
+  {"t0": 18.6, "dur": 4.8, "els": [
+   {"s": "Esa noche Barão Vermelho cerró así:", "f": "type", "size": 46, "y": 680},
+   {"s": "CAZUZA", "f": "anton", "size": 190, "y": 850, "slam": true, "d": 0.4},
+   {"s": "\"Que o dia nasça lindo", "f": "oswb", "size": 56, "y": 1030, "d": 1.0},
+   {"s": "para todo mundo amanhã\"", "f": "oswb", "size": 56, "y": 1105, "d": 1.3}
+  ]},
+  {"t0": 23.4, "dur": 5.4, "els": [
+   {"s": "Rock y democracia, el mismo día", "f": "oswb", "size": 56, "y": 660},
+   {"s": "¿LO SABÍAS?", "f": "anton", "size": 170, "y": 840, "c": "red", "slam": true, "d": 0.4},
+   {"s": "Contame abajo", "f": "type", "size": 54, "y": 1040, "d": 1.2}
+  ]}
+ ]
+}

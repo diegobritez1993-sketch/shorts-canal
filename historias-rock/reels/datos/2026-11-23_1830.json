@@ -1,0 +1,44 @@
+{
+ "tema": "Top: 3 bandas del rock y metal finlandés: Hanoi Rocks (Helsinki, 1979, glam/hard rock; Monroe y McCoy la refundan en 2001), Nightwish (Kitee, julio 1996, idea acústica de Tuomas Holopainen junto a una fogata; debut «Angels Fall First» nov. 1997), Lordi (Rovaniemi, 1992; Eurovisión 20/5/2006 en Atenas con «Hard Rock Hallelujah», 292 puntos récord, primera victoria de Finlandia y primer acto rock/metal en ganar)",
+ "fuente": "Fuente: Rough Trade (Hanoi Rocks) · nightwish.com y Louder (2026) · Wikipedia (Lordi; Hard Rock Hallelujah) · Finland Abroad",
+ "url_fuente": "https://en.wikipedia.org/wiki/Hard_Rock_Hallelujah",
+ "seed": 427,
+ "bpm": 162,
+ "tono": 39,
+ "footer_y": 1360,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.8, "els": [
+   {"s": "3 BANDAS", "f": "anton", "size": 190, "y": 680, "slam": true},
+   {"s": "DEL ROCK Y METAL", "f": "anton", "size": 110, "y": 860, "slam": true, "d": 0.35},
+   {"s": "FINLANDÉS", "f": "anton", "size": 170, "y": 1020, "c": "red", "slam": true, "d": 0.7},
+   {"s": "para empezar a escuchar", "f": "type", "size": 50, "y": 1210, "d": 1.2}
+  ]},
+  {"t0": 3.8, "dur": 6.4, "els": [
+   {"s": "#1 · Helsinki, 1979", "f": "type", "size": 54, "y": 640},
+   {"s": "HANOI ROCKS", "f": "anton", "size": 160, "y": 790, "slam": true, "d": 0.35, "bar": 620},
+   {"s": "glam y hard rock desde Finlandia", "f": "oswb", "size": 50, "y": 1010, "d": 1.0},
+   {"s": "en 2001 la refundaron", "f": "oswb", "size": 48, "y": 1080, "d": 1.4},
+   {"s": "Michael Monroe y Andy McCoy", "f": "type", "size": 42, "y": 1165, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 10.2, "dur": 6.4, "els": [
+   {"s": "#2 · Kitee, julio de 1996", "f": "type", "size": 54, "y": 640},
+   {"s": "NIGHTWISH", "f": "anton", "size": 180, "y": 790, "c": "red", "slam": true, "d": 0.35, "bar": 600},
+   {"s": "nació junto a una fogata en una isla", "f": "oswb", "size": 46, "y": 1010, "d": 1.0},
+   {"s": "como idea acústica de Tuomas Holopainen", "f": "oswb", "size": 44, "y": 1080, "d": 1.4},
+   {"s": "debut: «Angels Fall First» (1997)", "f": "type", "size": 40, "y": 1165, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 16.6, "dur": 6.6, "els": [
+   {"s": "#3 · Rovaniemi, 1992", "f": "type", "size": 56, "y": 640},
+   {"s": "LORDI", "f": "anton", "size": 190, "y": 790, "slam": true, "d": 0.35, "bar": 440},
+   {"s": "ganó Eurovisión 2006 en Atenas", "f": "oswb", "size": 50, "y": 1010, "d": 1.0},
+   {"s": "«Hard Rock Hallelujah»: 292 puntos, récord", "f": "oswb", "size": 44, "y": 1080, "d": 1.4},
+   {"s": "1ª victoria de Finlandia y del rock/metal", "f": "type", "size": 38, "y": 1165, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 23.2, "dur": 5.4, "els": [
+   {"s": "Orden cronológico, no ranking", "f": "type", "size": 46, "y": 640, "c": "dim"},
+   {"s": "¿CUÁL", "f": "anton", "size": 180, "y": 790, "slam": true, "d": 0.3},
+   {"s": "AGREGARÍAS?", "f": "anton", "size": 160, "y": 980, "c": "red", "slam": true, "d": 0.6},
+   {"s": "Contame abajo", "f": "type", "size": 52, "y": 1170, "d": 1.4}
+  ]}
+ ]
+}
