@@ -26,11 +26,16 @@
 | 2026-11-21 | 21:00 | Short | ¿OBS no se conecta a TikFinity? Revisá estas 3 cosas | publicados/s17_obs_error.mp4 |
 | 2026-11-22 | 21:00 | Short | ¿Streamer.bot no responde a TikFinity? El paso olvidado | publicados/s18_streamerbot.mp4 |
 | 2026-11-23 | 21:00 | Short | ¿Los comandos de Minecraft van a todos? (TikFinity) | publicados/s19_mc_nombre.mp4 |
+| 2026-11-24 | 18:30 | Largo | Sistema de PUNTOS y NIVELES en TikFinity: que tu público vuelva a cada live (2026) | publicados/tikfinity_puntos_niveles.mp4 |
+| 2026-11-24 | 21:00 | Short | ¿Tenés suscriptores en TikTok? Dales puntos extra (TikFinity) | publicados/s20_bono_subs.mp4 |
+| 2026-11-25 | 21:00 | Short | ¿Qué es el multiplicador de nivel en TikFinity? | publicados/s21_multiplicador.mp4 |
+| 2026-11-26 | 21:00 | Short | Una meta con los PUNTOS de tu canal (TikFinity) | publicados/s22_meta_puntos.mp4 |
 
 Temas ya cubiertos: configuración general, conexión/offline, puntos y niveles, bono suscriptores,
 OBS, Streamer.bot, Minecraft, superposiciones, metas (likes, follows, shares, viewers, subs),
 novedades (app escritorio, Voicemod, miembros de equipo),
 FAQ/problemas comunes (no conecta, alertas mudas, pantallas offline, filtro TTS, Minecraft, celular, clave de stream, lives limitados),
 ideas para un live interactivo (canales en directo, transacciones, GTA 5, simulación de teclas, Acciones y Eventos),
-errores comunes de configuración (conectar antes del live, usuario, OBS 28/WebSocket, Streamer.bot servidor, Minecraft mod+plugin y nombre de jugador, título de metas, puntos solo por regalos).
-Próximo número de Short: s20. Próximo episodio largo: ep.6 (long6.py, prefijo l6_). Ep.5 scripts en motor/ (long5.py, l5_audio.py, shorts5.py, thumb5.py, sheet_s5.py; hojas de contacto: sheet.py long4 out.png / sheet_s.py nombres).
+errores comunes de configuración (conectar antes del live, usuario, OBS 28/WebSocket, Streamer.bot servidor, Minecraft mod+plugin y nombre de jugador, título de metas, puntos solo por regalos),
+puntos y niveles a fondo / fidelización (moneda, 3 formas de sumar, bono suscriptores, multiplicador de nivel, Restablecer Puntos, metas Channel Points Earned / Coins Earned).
+Próximo número de Short: s23. Próximo episodio largo: ep.7 (long7.py, prefijo l7_). Ep.6 scripts en motor/ (long6.py, l6_audio.py, shorts6.py, thumb6.py, sheet_s6.py; hojas de contacto: sheet.py long4 out.png / sheet_s.py nombres).
