@@ -1,0 +1,38 @@
+{
+ "tema": "El nombre Metallica era de un fanzine: Ron Quintana le preguntó a Lars Ulrich si llamar a su revista «Metallica» o «Metal Mania»; Lars le recomendó Metal Mania y se quedó con Metallica para su banda (1981)",
+ "fuente": "Fuente: Loudwire, «Lars Ulrich Reveals Who Came Up With the Name Metallica» (2023)",
+ "url_fuente": "https://loudwire.com/lars-ulrich-reveals-who-coined-name-metallica/",
+ "seed": 91,
+ "bpm": 156,
+ "tono": 40,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.0, "els": [
+    {"s": "POCOS", "f": "anton", "size": 190, "y": 820, "slam": true},
+    {"s": "LO SABEN", "f": "anton", "size": 190, "y": 1020, "c": "red", "slam": true, "d": 0.35}
+  ]},
+  {"t0": 3.0, "dur": 3.6, "els": [
+    {"s": "El nombre de la banda", "f": "type", "size": 50, "y": 660},
+    {"s": "más famosa del thrash,", "f": "type", "size": 50, "y": 730, "d": 0.3},
+    {"s": "METALLICA,", "f": "anton", "size": 170, "y": 900, "slam": true, "d": 0.9},
+    {"s": "no lo inventó la banda", "f": "oswb", "size": 56, "y": 1070, "c": "red", "d": 1.4}
+  ]},
+  {"t0": 6.6, "dur": 3.8, "els": [
+    {"s": "Ron Quintana, un fan", "f": "type", "size": 50, "y": 660},
+    {"s": "del metal, armaba", "f": "type", "size": 50, "y": 730, "d": 0.3},
+    {"s": "UN FANZINE", "f": "anton", "size": 160, "y": 900, "slam": true, "bar": 520, "d": 0.9},
+    {"s": "y dudaba entre dos nombres", "f": "oswb", "size": 52, "y": 1070, "c": "dim", "d": 1.4}
+  ]},
+  {"t0": 10.4, "dur": 3.6, "els": [
+    {"s": "Le preguntó a Lars Ulrich", "f": "type", "size": 50, "y": 660},
+    {"s": "y Lars le recomendó:", "f": "type", "size": 50, "y": 730, "d": 0.3},
+    {"s": "METAL MANIA", "f": "anton", "size": 150, "y": 900, "slam": true, "d": 0.9},
+    {"s": "(el otro se lo guardó)", "f": "oswb", "size": 52, "y": 1060, "c": "dim", "d": 1.4}
+  ]},
+  {"t0": 14.0, "dur": 3.4, "els": [
+    {"s": "y con ese otro nombre", "f": "type", "size": 50, "y": 700},
+    {"s": "nació", "f": "type", "size": 50, "y": 770, "d": 0.3},
+    {"s": "METALLICA", "f": "anton", "size": 170, "y": 920, "slam": true, "d": 0.7},
+    {"s": "1981", "f": "anton", "size": 190, "y": 1120, "c": "red", "slam": true, "d": 1.1}
+  ]}
+ ]
+}
