@@ -1,0 +1,38 @@
+{
+ "tema": "Motörhead iba a llamarse Bastard; terminó llamándose como «Motorhead», la última canción que Lemmy escribió para Hawkwind (lado B de «Kings of Speed», marzo 1975), antes de que lo echaran en mayo de 1975 tras un arresto en la frontera de Canadá",
+ "fuente": "Fuente: Louder, «The riotous story of Motörhead's early years» (2024)",
+ "url_fuente": "https://www.loudersound.com/features/motorhead-early-years",
+ "seed": 37,
+ "bpm": 148,
+ "tono": 43,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.0, "els": [
+    {"s": "¿SABÍAS", "f": "anton", "size": 190, "y": 820, "slam": true},
+    {"s": "QUE...?", "f": "anton", "size": 190, "y": 1020, "c": "red", "slam": true, "d": 0.35}
+  ]},
+  {"t0": 3.0, "dur": 3.6, "els": [
+    {"s": "La banda de Lemmy,", "f": "type", "size": 50, "y": 660},
+    {"s": "MOTÖRHEAD,", "f": "anton", "size": 170, "y": 830, "slam": true, "d": 0.6},
+    {"s": "al principio iba a llamarse", "f": "type", "size": 50, "y": 990, "d": 1.1},
+    {"s": "BASTARD", "f": "anton", "size": 150, "y": 1130, "c": "red", "slam": true, "d": 1.8}
+  ]},
+  {"t0": 6.6, "dur": 3.8, "els": [
+    {"s": "El nombre final salió", "f": "type", "size": 50, "y": 660},
+    {"s": "de una canción:", "f": "type", "size": 50, "y": 730, "d": 0.3},
+    {"s": "MOTORHEAD", "f": "anton", "size": 150, "y": 900, "slam": true, "bar": 560, "d": 0.9},
+    {"s": "la última que Lemmy escribió para Hawkwind", "f": "oswb", "size": 46, "y": 1070, "c": "dim", "d": 1.4}
+  ]},
+  {"t0": 10.4, "dur": 3.6, "els": [
+    {"s": "Salió como lado B de", "f": "type", "size": 50, "y": 660},
+    {"s": "«Kings of Speed» y poco después", "f": "type", "size": 50, "y": 730, "d": 0.3},
+    {"s": "LO ECHARON", "f": "anton", "size": 160, "y": 900, "c": "red", "slam": true, "d": 0.9},
+    {"s": "de Hawkwind (mayo de 1975)", "f": "oswb", "size": 52, "y": 1060, "c": "dim", "d": 1.4}
+  ]},
+  {"t0": 14.0, "dur": 3.4, "els": [
+    {"s": "y ese mismo año, en Londres,", "f": "type", "size": 50, "y": 700},
+    {"s": "nació", "f": "type", "size": 50, "y": 770, "d": 0.3},
+    {"s": "MOTÖRHEAD", "f": "anton", "size": 170, "y": 920, "slam": true, "d": 0.7},
+    {"s": "1975", "f": "anton", "size": 190, "y": 1120, "c": "red", "slam": true, "d": 1.1}
+  ]}
+ ]
+}
