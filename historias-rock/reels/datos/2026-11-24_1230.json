@@ -1,0 +1,44 @@
+{
+ "tema": "«Smoke on the Water» (Deep Purple) cuenta un incendio real: el 4/12/1971, en un show de Frank Zappa and the Mothers en el Casino de Montreux, alguien del público disparó una bengala al techo y el casino se quemó. Deep Purple iba a grabar ahí «Machine Head» con el estudio móvil de los Rolling Stones; terminó grabando en los pasillos del Grand Hôtel de Territet. El «Funky Claude» de la letra es Claude Nobs (Montreux Jazz Festival), que ayudó a sacar gente del incendio",
+ "fuente": "Fuente: NPR, «A Swiss Town, A Casino Fire And 'Smoke On The Water'» (2015) · American Songwriter · Wikipedia (Smoke on the Water)",
+ "url_fuente": "https://www.npr.org/sections/parallels/2015/03/08/391246315/a-swiss-town-a-casino-fire-and-smoke-on-the-water",
+ "seed": 318,
+ "bpm": 150,
+ "tono": 42,
+ "footer_y": 1360,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.6, "els": [
+   {"s": "¿DE QUÉ", "f": "anton", "size": 180, "y": 700, "slam": true},
+   {"s": "HUMO HABLA", "f": "anton", "size": 150, "y": 880, "slam": true, "d": 0.3},
+   {"s": "DEEP PURPLE?", "f": "anton", "size": 150, "y": 1050, "c": "red", "slam": true, "d": 0.6}
+  ]},
+  {"t0": 3.6, "dur": 5.0, "els": [
+   {"s": "Montreux, Suiza · 4 de diciembre de 1971", "f": "type", "size": 42, "y": 680},
+   {"s": "FRANK ZAPPA", "f": "anton", "size": 160, "y": 850, "slam": true, "d": 0.4, "bar": 640},
+   {"s": "tocaba con los Mothers en el casino", "f": "oswb", "size": 52, "y": 1030, "d": 1.0},
+   {"s": "y Deep Purple estaba en la ciudad", "f": "oswb", "size": 52, "y": 1105, "d": 1.3}
+  ]},
+  {"t0": 8.6, "dur": 5.0, "els": [
+   {"s": "Alguien del público disparó una", "f": "type", "size": 48, "y": 680},
+   {"s": "BENGALA", "f": "anton", "size": 190, "y": 850, "c": "red", "slam": true, "d": 0.4},
+   {"s": "al techo... y el casino se quemó", "f": "oswb", "size": 54, "y": 1040, "d": 1.0}
+  ]},
+  {"t0": 13.6, "dur": 5.0, "els": [
+   {"s": "Ahí iban a grabar su próximo disco", "f": "type", "size": 46, "y": 680},
+   {"s": "MACHINE HEAD", "f": "anton", "size": 150, "y": 850, "slam": true, "d": 0.4, "bar": 640},
+   {"s": "con el estudio móvil de los Rolling Stones", "f": "oswb", "size": 46, "y": 1020, "d": 1.0},
+   {"s": "terminaron grabando en los pasillos de un hotel", "f": "oswb", "size": 44, "y": 1090, "d": 1.3}
+  ]},
+  {"t0": 18.6, "dur": 4.8, "els": [
+   {"s": "Y el \"Funky Claude\" de la letra es...", "f": "type", "size": 46, "y": 680},
+   {"s": "CLAUDE NOBS", "f": "anton", "size": 160, "y": 850, "slam": true, "d": 0.4},
+   {"s": "el del Montreux Jazz Festival", "f": "oswb", "size": 54, "y": 1030, "d": 1.0},
+   {"s": "ayudó a sacar gente del incendio", "f": "oswb", "size": 54, "y": 1105, "d": 1.3}
+  ]},
+  {"t0": 23.4, "dur": 5.4, "els": [
+   {"s": "El humo sobre el lago es real", "f": "oswb", "size": 56, "y": 660},
+   {"s": "¿LO SABÍAS?", "f": "anton", "size": 170, "y": 840, "c": "red", "slam": true, "d": 0.4},
+   {"s": "Contame abajo", "f": "type", "size": 54, "y": 1040, "d": 1.2}
+  ]}
+ ]
+}

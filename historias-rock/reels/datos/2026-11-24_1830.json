@@ -1,0 +1,44 @@
+{
+ "tema": "Top: 3 bandas pioneras del heavy argentino (orden cronológico): V8 (Buenos Aires, 1979, Ricardo Iorio y Chofa Moreno; debut «Luchando por el metal» 10/4/1983), Riff (Pappo, show «Adiós Pappo's Blues, bienvenido Riff» 14/11/1980; debut «Ruedas de metal» 1981), Rata Blanca (1986, Walter Giardino ex V8; «Magos, espadas y rosas» 24/4/1990, más de 1 millón de copias)",
+ "fuente": "Fuente: Tiempo Argentino (2023) · C5N (2025) · Wikipedia (V8; Riff; Magos, espadas y rosas)",
+ "url_fuente": "https://www.tiempoar.com.ar/ta_article/a-40-anos-de-luchando-por-el-metal-el-disco-debut-de-v8-que-revoluciono-el-heavy-argentino/",
+ "seed": 533,
+ "bpm": 158,
+ "tono": 41,
+ "footer_y": 1360,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.8, "els": [
+   {"s": "3 BANDAS", "f": "anton", "size": 190, "y": 680, "slam": true},
+   {"s": "PIONERAS DEL HEAVY", "f": "anton", "size": 105, "y": 860, "slam": true, "d": 0.35},
+   {"s": "ARGENTINO", "f": "anton", "size": 170, "y": 1020, "c": "red", "slam": true, "d": 0.7},
+   {"s": "para empezar a escuchar", "f": "type", "size": 50, "y": 1210, "d": 1.2}
+  ]},
+  {"t0": 3.8, "dur": 6.4, "els": [
+   {"s": "#1 · Buenos Aires, 1979", "f": "type", "size": 54, "y": 640},
+   {"s": "V8", "f": "anton", "size": 200, "y": 790, "slam": true, "d": 0.35, "bar": 300},
+   {"s": "Ricardo Iorio y Chofa Moreno", "f": "oswb", "size": 52, "y": 1010, "d": 1.0},
+   {"s": "debut: «Luchando por el metal»", "f": "oswb", "size": 50, "y": 1080, "d": 1.4},
+   {"s": "en las disquerías el 10/4/1983", "f": "type", "size": 42, "y": 1165, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 10.2, "dur": 6.4, "els": [
+   {"s": "#2 · Buenos Aires, 1980", "f": "type", "size": 54, "y": 640},
+   {"s": "RIFF", "f": "anton", "size": 200, "y": 790, "c": "red", "slam": true, "d": 0.35, "bar": 400},
+   {"s": "la banda heavy de Pappo", "f": "oswb", "size": 52, "y": 1010, "d": 1.0},
+   {"s": "\"Adiós Pappo's Blues, bienvenido Riff\"", "f": "oswb", "size": 44, "y": 1080, "d": 1.4},
+   {"s": "debut: «Ruedas de metal» (1981)", "f": "type", "size": 42, "y": 1165, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 16.6, "dur": 6.6, "els": [
+   {"s": "#3 · Buenos Aires, 1986", "f": "type", "size": 54, "y": 640},
+   {"s": "RATA BLANCA", "f": "anton", "size": 160, "y": 790, "slam": true, "d": 0.35, "bar": 620},
+   {"s": "la armó Walter Giardino, ex V8", "f": "oswb", "size": 50, "y": 1010, "d": 1.0},
+   {"s": "«Magos, espadas y rosas» (24/4/1990)", "f": "oswb", "size": 44, "y": 1080, "d": 1.4},
+   {"s": "más de 1 millón de copias vendidas", "f": "type", "size": 40, "y": 1165, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 23.2, "dur": 5.4, "els": [
+   {"s": "Orden cronológico, no ranking", "f": "type", "size": 46, "y": 640, "c": "dim"},
+   {"s": "¿CUÁL", "f": "anton", "size": 180, "y": 790, "slam": true, "d": 0.3},
+   {"s": "AGREGARÍAS?", "f": "anton", "size": 160, "y": 980, "c": "red", "slam": true, "d": 0.6},
+   {"s": "Contame abajo", "f": "type", "size": 52, "y": 1170, "d": 1.4}
+  ]}
+ ]
+}
