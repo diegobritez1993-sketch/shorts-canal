@@ -1,0 +1,44 @@
+{
+ "tema": "Top: 3 bandas del rock chileno (orden cronológico): Los Jaivas (Viña del Mar, 1963, hermanos Parra; «Alturas de Macchu Picchu» 1981 sobre poemas de Pablo Neruda, especial de TV filmado en Machu Picchu), Los Prisioneros (compañeros del Liceo 6 de San Miguel; debut 1/7/1983; «La voz de los '80» dic. 1984, sello Fusión), La Ley (fundada en 1987 por Rodrigo Aboitiz y Andrés Bobe; «Uno» ganó el Grammy en 2001, el primer Grammy para Chile)",
+ "fuente": "Fuente: Memoria Chilena · La Tercera (2023) · El Mostrador (2001) · Wikipedia (Los Jaivas)",
+ "url_fuente": "https://www.memoriachilena.gob.cl/602/w3-article-3574.html",
+ "seed": 641,
+ "bpm": 150,
+ "tono": 43,
+ "footer_y": 1360,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.8, "els": [
+   {"s": "3 BANDAS", "f": "anton", "size": 190, "y": 680, "slam": true},
+   {"s": "DEL ROCK", "f": "anton", "size": 150, "y": 860, "slam": true, "d": 0.35},
+   {"s": "CHILENO", "f": "anton", "size": 170, "y": 1020, "c": "red", "slam": true, "d": 0.7},
+   {"s": "para empezar a escuchar", "f": "type", "size": 50, "y": 1210, "d": 1.2}
+  ]},
+  {"t0": 3.8, "dur": 6.4, "els": [
+   {"s": "#1 · Viña del Mar, 1963", "f": "type", "size": 54, "y": 640},
+   {"s": "LOS JAIVAS", "f": "anton", "size": 170, "y": 790, "slam": true, "d": 0.35, "bar": 560},
+   {"s": "la armaron los hermanos Parra", "f": "oswb", "size": 52, "y": 1010, "d": 1.0},
+   {"s": "«Alturas de Macchu Picchu» (1981)", "f": "oswb", "size": 46, "y": 1080, "d": 1.4},
+   {"s": "sobre poemas de Pablo Neruda", "f": "type", "size": 42, "y": 1165, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 10.2, "dur": 6.4, "els": [
+   {"s": "#2 · San Miguel, 1983", "f": "type", "size": 54, "y": 640},
+   {"s": "LOS PRISIONEROS", "f": "anton", "size": 130, "y": 790, "c": "red", "slam": true, "d": 0.35, "bar": 640},
+   {"s": "tres compañeros del Liceo 6", "f": "oswb", "size": 52, "y": 1010, "d": 1.0},
+   {"s": "debut en vivo: 1 de julio de 1983", "f": "oswb", "size": 46, "y": 1080, "d": 1.4},
+   {"s": "«La voz de los '80» salió en 1984", "f": "type", "size": 42, "y": 1165, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 16.6, "dur": 6.6, "els": [
+   {"s": "#3 · Chile, 1987", "f": "type", "size": 54, "y": 640},
+   {"s": "LA LEY", "f": "anton", "size": 200, "y": 790, "slam": true, "d": 0.35, "bar": 440},
+   {"s": "la fundaron Aboitiz y Bobe", "f": "oswb", "size": 52, "y": 1010, "d": 1.0},
+   {"s": "«Uno» ganó el Grammy en 2001", "f": "oswb", "size": 48, "y": 1080, "d": 1.4},
+   {"s": "el primer Grammy para Chile", "f": "type", "size": 42, "y": 1165, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 23.2, "dur": 5.4, "els": [
+   {"s": "Orden cronológico, no ranking", "f": "type", "size": 46, "y": 640, "c": "dim"},
+   {"s": "¿CUÁL", "f": "anton", "size": 180, "y": 790, "slam": true, "d": 0.3},
+   {"s": "AGREGARÍAS?", "f": "anton", "size": 160, "y": 980, "c": "red", "slam": true, "d": 0.6},
+   {"s": "Contame abajo", "f": "type", "size": 52, "y": 1170, "d": 1.4}
+  ]}
+ ]
+}
