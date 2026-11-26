@@ -1,0 +1,37 @@
+{
+ "tema": "Pro Rock Ensamble (Paraguay) debutó directamente con un disco simple en diciembre de 1980; su LP «Música para los Perros» salió el 23/11/1983, grabado en estudio Tayi y prensado en Brasil; «perros» era como se les decía a los amigos/seguidores; Saúl Gaona sacó un préstamo del banco para pagarlo",
+ "fuente": "Fuente: La Nación PY, «Pro Rock Ensamble, ¿es la primera banda en grabar un disco?» (2020)",
+ "url_fuente": "https://www.lanacion.com.py/gran-diario-domingo/2020/05/31/pro-rock-ensamble-es-la-primera-banda-en-grabar-un-disco/",
+ "seed": 61,
+ "bpm": 148,
+ "tono": 42,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.0, "els": [
+    {"s": "POCOS", "f": "anton", "size": 190, "y": 820, "slam": true},
+    {"s": "LO SABEN", "f": "anton", "size": 190, "y": 1020, "c": "red", "slam": true, "d": 0.35}
+  ]},
+  {"t0": 3.0, "dur": 3.8, "els": [
+    {"s": "Rock paraguayo, diciembre de 1980:", "f": "type", "size": 48, "y": 660},
+    {"s": "PRO ROCK", "f": "anton", "size": 170, "y": 840, "slam": true, "d": 0.7},
+    {"s": "ENSAMBLE", "f": "anton", "size": 170, "y": 1010, "c": "red", "slam": true, "d": 1.0},
+    {"s": "debutó directo con un disco simple", "f": "oswb", "size": 50, "y": 1170, "c": "dim", "d": 1.5}
+  ]},
+  {"t0": 6.8, "dur": 4.0, "els": [
+    {"s": "Su LP salió el 23/11/1983 y se llamó", "f": "type", "size": 46, "y": 640},
+    {"s": "MÚSICA PARA", "f": "anton", "size": 150, "y": 830, "slam": true, "d": 0.7},
+    {"s": "LOS PERROS", "f": "anton", "size": 170, "y": 1000, "c": "red", "slam": true, "d": 1.0},
+    {"s": "grabado en Tayi · prensado en Brasil", "f": "oswb", "size": 48, "y": 1160, "c": "dim", "d": 1.5}
+  ]},
+  {"t0": 10.8, "dur": 3.6, "els": [
+    {"s": "¿Por qué «perros»? Porque así", "f": "type", "size": 50, "y": 680},
+    {"s": "se les decía a los", "f": "type", "size": 50, "y": 750, "d": 0.3},
+    {"s": "AMIGOS", "f": "anton", "size": 190, "y": 930, "c": "red", "slam": true, "d": 0.9},
+    {"s": "y seguidores de la banda", "f": "oswb", "size": 52, "y": 1100, "c": "dim", "d": 1.4}
+  ]},
+  {"t0": 14.4, "dur": 3.4, "els": [
+    {"s": "Para pagarlo, el guitarrista Saúl Gaona", "f": "type", "size": 44, "y": 700},
+    {"s": "PIDIÓ UN", "f": "anton", "size": 160, "y": 880, "slam": true, "d": 0.7},
+    {"s": "PRÉSTAMO", "f": "anton", "size": 170, "y": 1050, "c": "red", "slam": true, "d": 1.0}
+  ]}
+ ]
+}
