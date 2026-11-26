@@ -1,0 +1,50 @@
+{
+ "tema": "Led Zeppelin salió de un chiste: Keith Moon (The Who) dijo que la banda iba a caer «como un globo de plomo» (go down like a lead balloon); en su primer show (7/9/1968, Gladsaxe, Dinamarca) todavía eran The New Yardbirds; Jimmy Page se acordó del chiste; el manager Peter Grant sacó la «a» de Lead para que no hubiera dudas de pronunciación; el debut salió en enero de 1969, grabado en unas 30 horas",
+ "fuente": "Fuente: Rolling Stone, «How Led Zeppelin Came to Be» · Far Out Magazine · Mental Floss (2026)",
+ "url_fuente": "https://www.rollingstone.com/music/music-features/how-led-zeppelin-formed-718697/",
+ "seed": 512,
+ "bpm": 138,
+ "tono": 41,
+ "footer_y": 1360,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.8, "els": [
+   {"s": "¿SABÍAS QUE", "f": "anton", "size": 170, "y": 680, "slam": true},
+   {"s": "LED ZEPPELIN", "f": "anton", "size": 150, "y": 860, "c": "red", "slam": true, "d": 0.35},
+   {"s": "NACIÓ DE UN CHISTE", "f": "anton", "size": 105, "y": 1020, "slam": true, "d": 0.7},
+   {"s": "sobre un fracaso?", "f": "type", "size": 60, "y": 1160, "d": 1.2}
+  ]},
+  {"t0": 3.8, "dur": 4.8, "els": [
+   {"s": "La broma fue del baterista de The Who", "f": "type", "size": 44, "y": 660},
+   {"s": "KEITH MOON", "f": "anton", "size": 170, "y": 830, "slam": true, "d": 0.35, "bar": 600},
+   {"s": "dijo que la banda nueva de Page", "f": "oswb", "size": 52, "y": 1020, "d": 1.0},
+   {"s": "se iba a caer como un globo de plomo", "f": "type", "size": 42, "y": 1100, "c": "dim", "d": 1.5}
+  ]},
+  {"t0": 8.6, "dur": 4.6, "els": [
+   {"s": "En inglés: \"go down like a...\"", "f": "type", "size": 48, "y": 660},
+   {"s": "LEAD BALLOON", "f": "anton", "size": 150, "y": 840, "c": "red", "slam": true, "d": 0.35, "bar": 640},
+   {"s": "o sea: un fracaso total", "f": "oswb", "size": 56, "y": 1030, "d": 1.0}
+  ]},
+  {"t0": 13.2, "dur": 4.8, "els": [
+   {"s": "Primer show: Dinamarca, sept. 1968", "f": "type", "size": 46, "y": 660},
+   {"s": "NEW YARDBIRDS", "f": "anton", "size": 140, "y": 830, "slam": true, "d": 0.35},
+   {"s": "así se llamaban todavía", "f": "oswb", "size": 54, "y": 1010, "d": 1.0},
+   {"s": "Jimmy Page nunca se olvidó del chiste", "f": "type", "size": 42, "y": 1090, "c": "dim", "d": 1.6}
+  ]},
+  {"t0": 18.0, "dur": 4.8, "els": [
+   {"s": "El manager Peter Grant", "f": "type", "size": 50, "y": 660},
+   {"s": "LE SACÓ LA A", "f": "anton", "size": 160, "y": 830, "c": "red", "slam": true, "d": 0.35},
+   {"s": "DE LEAD A LED", "f": "oswb", "size": 72, "y": 1010, "d": 1.0},
+   {"s": "para que nadie dudara cómo pronunciarlo", "f": "type", "size": 40, "y": 1110, "c": "dim", "d": 1.6}
+  ]},
+  {"t0": 22.8, "dur": 4.2, "els": [
+   {"s": "Enero de 1969", "f": "type", "size": 54, "y": 660},
+   {"s": "EL DEBUT", "f": "anton", "size": 190, "y": 830, "slam": true, "d": 0.35},
+   {"s": "grabado en unas 30 horas", "f": "oswb", "size": 56, "y": 1020, "d": 1.0}
+  ]},
+  {"t0": 27.0, "dur": 4.6, "els": [
+   {"s": "El globo nunca se cayó", "f": "oswb", "size": 56, "y": 660},
+   {"s": "¿LO SABÍAS?", "f": "anton", "size": 170, "y": 840, "c": "red", "slam": true, "d": 0.4},
+   {"s": "Contame abajo", "f": "type", "size": 54, "y": 1040, "d": 1.2}
+  ]}
+ ]
+}

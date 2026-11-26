@@ -1,0 +1,44 @@
+{
+ "tema": "Top: 3 bandas del rock brasileño de los 80 (por año del disco): Os Paralamas do Sucesso (Río de Janeiro; Herbert Vianna, Bi Ribeiro, João Barone; debut «Cinema Mudo» 1983; «Selvagem?» 1986, 700 mil copias), Ultraje a Rigor (São Paulo, Roger Moreira; nombre = juego entre «traje a rigor» y «ultraje»; «Nós Vamos Invadir Sua Praia» 1985, disco de platino), Titãs (São Paulo; debut en 1982 como Titãs do Iê-Iê, nueve integrantes; «Cabeça Dinossauro» 1986)",
+ "fuente": "Fuente: O Povo (2023) · Wikipedia (Os Paralamas do Sucesso; Ultraje a Rigor; Nós Vamos Invadir sua Praia)",
+ "url_fuente": "https://www.opovo.com.br/noticias/brasil/2023/05/03/4-bandas-que-marcaram-o-rock-nacional-nos-anos-80.html",
+ "seed": 733,
+ "bpm": 152,
+ "tono": 39,
+ "footer_y": 1360,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.8, "els": [
+   {"s": "3 BANDAS", "f": "anton", "size": 190, "y": 680, "slam": true},
+   {"s": "DEL ROCK BRASILEÑO", "f": "anton", "size": 110, "y": 860, "slam": true, "d": 0.35},
+   {"s": "DE LOS 80", "f": "anton", "size": 170, "y": 1010, "c": "red", "slam": true, "d": 0.7},
+   {"s": "para empezar a escuchar", "f": "type", "size": 50, "y": 1200, "d": 1.2}
+  ]},
+  {"t0": 3.8, "dur": 6.4, "els": [
+   {"s": "#1 · Río de Janeiro, 1983", "f": "type", "size": 52, "y": 640},
+   {"s": "PARALAMAS", "f": "anton", "size": 170, "y": 790, "slam": true, "d": 0.35, "bar": 600},
+   {"s": "Herbert Vianna, Bi Ribeiro y Barone", "f": "oswb", "size": 48, "y": 1010, "d": 1.0},
+   {"s": "debut: «Cinema Mudo» (1983)", "f": "oswb", "size": 48, "y": 1080, "d": 1.4},
+   {"s": "«Selvagem?» (1986) vendió 700 mil", "f": "type", "size": 42, "y": 1165, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 10.2, "dur": 6.4, "els": [
+   {"s": "#2 · São Paulo, 1985", "f": "type", "size": 54, "y": 640},
+   {"s": "ULTRAJE A RIGOR", "f": "anton", "size": 130, "y": 790, "c": "red", "slam": true, "d": 0.35, "bar": 640},
+   {"s": "el nombre juega con «traje a rigor»", "f": "oswb", "size": 48, "y": 1010, "d": 1.0},
+   {"s": "«Nós Vamos Invadir Sua Praia» (1985)", "f": "oswb", "size": 44, "y": 1080, "d": 1.4},
+   {"s": "disco de platino en Brasil", "f": "type", "size": 42, "y": 1165, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 16.6, "dur": 6.6, "els": [
+   {"s": "#3 · São Paulo, 1986", "f": "type", "size": 54, "y": 640},
+   {"s": "TITÃS", "f": "anton", "size": 200, "y": 790, "slam": true, "d": 0.35, "bar": 420},
+   {"s": "arrancaron en 1982 con nueve integrantes", "f": "oswb", "size": 44, "y": 1010, "d": 1.0},
+   {"s": "se llamaban Titãs do Iê-Iê", "f": "oswb", "size": 48, "y": 1080, "d": 1.4},
+   {"s": "«Cabeça Dinossauro» salió en 1986", "f": "type", "size": 42, "y": 1165, "c": "dim", "d": 2.0}
+  ]},
+  {"t0": 23.2, "dur": 5.4, "els": [
+   {"s": "Orden por año del disco, no ranking", "f": "type", "size": 44, "y": 640, "c": "dim"},
+   {"s": "¿CUÁL", "f": "anton", "size": 180, "y": 790, "slam": true, "d": 0.3},
+   {"s": "AGREGARÍAS?", "f": "anton", "size": 160, "y": 980, "c": "red", "slam": true, "d": 0.6},
+   {"s": "Contame abajo", "f": "type", "size": 52, "y": 1170, "d": 1.4}
+  ]}
+ ]
+}
