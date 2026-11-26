@@ -30,6 +30,11 @@
 | 2026-11-24 | 21:00 | Short | ¿Tenés suscriptores en TikTok? Dales puntos extra (TikFinity) | publicados/s20_bono_subs.mp4 |
 | 2026-11-25 | 21:00 | Short | ¿Qué es el multiplicador de nivel en TikFinity? | publicados/s21_multiplicador.mp4 |
 | 2026-11-26 | 21:00 | Short | Una meta con los PUNTOS de tu canal (TikFinity) | publicados/s22_meta_puntos.mp4 |
+| 2026-11-27 | 18:30 | Largo | TikFinity GRATIS vs PRO: ¿tenés que pagar? Límites y lo que suma PRO (2026) | publicados/tikfinity_gratis_vs_pro.mp4 |
+| 2026-11-27 | 21:00 | Short | ¿TikFinity gratis tiene límites? Esto te deja usar | publicados/s23_limites_gratis.mp4 |
+| 2026-11-28 | 21:00 | Short | ¿Qué te da TikFinity PRO? (y dónde lo ves) | publicados/s24_que_es_pro.mp4 |
+| 2026-11-29 | 21:00 | Short | La app de escritorio de TikFinity: 3 cosas que el navegador no hace | publicados/s25_app_escritorio.mp4 |
+| 2026-11-30 | 21:00 | Short | Esto de TikFinity es GRATIS (no pagues de más) | publicados/s26_gratis_de_verdad.mp4 |
 
 Temas ya cubiertos: configuración general, conexión/offline, puntos y niveles, bono suscriptores,
 OBS, Streamer.bot, Minecraft, superposiciones, metas (likes, follows, shares, viewers, subs),
@@ -37,5 +42,6 @@ novedades (app escritorio, Voicemod, miembros de equipo),
 FAQ/problemas comunes (no conecta, alertas mudas, pantallas offline, filtro TTS, Minecraft, celular, clave de stream, lives limitados),
 ideas para un live interactivo (canales en directo, transacciones, GTA 5, simulación de teclas, Acciones y Eventos),
 errores comunes de configuración (conectar antes del live, usuario, OBS 28/WebSocket, Streamer.bot servidor, Minecraft mod+plugin y nombre de jugador, título de metas, puntos solo por regalos),
-puntos y niveles a fondo / fidelización (moneda, 3 formas de sumar, bono suscriptores, multiplicador de nivel, Restablecer Puntos, metas Channel Points Earned / Coins Earned).
-Próximo número de Short: s23. Próximo episodio largo: ep.7 (long7.py, prefijo l7_). Ep.6 scripts en motor/ (long6.py, l6_audio.py, shorts6.py, thumb6.py, sheet_s6.py; hojas de contacto: sheet.py long4 out.png / sheet_s.py nombres).
+puntos y niveles a fondo / fidelización (moneda, 3 formas de sumar, bono suscriptores, multiplicador de nivel, Restablecer Puntos, metas Channel Points Earned / Coins Earned),
+gratis vs PRO (límites plan gratis 100 TTS/5 alertas/5 acciones, etiquetas PRO, qué suma PRO, app de escritorio Windows, TikFinity Mobile con suscripción aparte).
+Próximo número de Short: s27. Próximo episodio largo: ep.8 (long8.py, prefijo l8_). Ep.7 scripts en motor/ (long7.py, l7_audio.py, shorts7.py, thumb7.py, sheet_s7.py; hojas de contacto: sheet.py long4 out.png / sheet_s.py nombres).
