@@ -1,0 +1,45 @@
+{
+ "tema": "Kiss tiene otro logo en Alemania: el logo original (1973) lo bocetó Ace Frehley y lo pulió Paul Stanley; las dos S parecen rayos y recuerdan a las SS nazis (Ace: «pensaba en rayos, no en las SS»); por el artículo 86a del código penal alemán, que prohíbe usar símbolos nazis, hace más de cuatro décadas que en Alemania suelen usar una versión con las S aplanadas en líneas rectas",
+ "fuente": "Fuente: Ultimate Classic Rock, «Why Kiss Changes Their Logo in Germany» (2023) · «How the Kiss Logo Was Designed» (2023)",
+ "url_fuente": "https://ultimateclassicrock.com/kiss-german-logo/",
+ "seed": 927,
+ "bpm": 144,
+ "tono": 42,
+ "footer_y": 1360,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.8, "els": [
+   {"s": "¿SABÍAS QUE", "f": "anton", "size": 170, "y": 680, "slam": true},
+   {"s": "KISS", "f": "anton", "size": 200, "y": 860, "c": "red", "slam": true, "d": 0.35},
+   {"s": "TIENE OTRO LOGO", "f": "anton", "size": 115, "y": 1030, "slam": true, "d": 0.7},
+   {"s": "cuando va a Alemania?", "f": "type", "size": 58, "y": 1170, "d": 1.2}
+  ]},
+  {"t0": 3.8, "dur": 4.8, "els": [
+   {"s": "El logo original es de 1973", "f": "type", "size": 50, "y": 660},
+   {"s": "ACE FREHLEY", "f": "anton", "size": 160, "y": 830, "slam": true, "d": 0.35, "bar": 620},
+   {"s": "hizo el primer boceto", "f": "oswb", "size": 56, "y": 1020, "d": 1.0},
+   {"s": "y Paul Stanley lo terminó de pulir", "f": "type", "size": 44, "y": 1100, "c": "dim", "d": 1.5}
+  ]},
+  {"t0": 8.6, "dur": 4.8, "els": [
+   {"s": "El problema estaba en el final", "f": "type", "size": 48, "y": 660},
+   {"s": "LAS DOS S", "f": "anton", "size": 170, "y": 840, "c": "red", "slam": true, "d": 0.35, "bar": 560},
+   {"s": "parecen rayos... y recuerdan a las SS", "f": "oswb", "size": 48, "y": 1030, "d": 1.0},
+   {"s": "Ace dijo: «pensaba en rayos, no en las SS»", "f": "type", "size": 38, "y": 1110, "c": "dim", "d": 1.6}
+  ]},
+  {"t0": 13.4, "dur": 4.8, "els": [
+   {"s": "En Alemania la ley prohíbe usar", "f": "type", "size": 48, "y": 660},
+   {"s": "SÍMBOLOS NAZIS", "f": "anton", "size": 135, "y": 830, "slam": true, "d": 0.35},
+   {"s": "artículo 86a del código penal", "f": "oswb", "size": 54, "y": 1020, "d": 1.0}
+  ]},
+  {"t0": 18.2, "dur": 5.0, "els": [
+   {"s": "La solución de la banda:", "f": "type", "size": 50, "y": 660},
+   {"s": "S APLANADAS", "f": "anton", "size": 160, "y": 830, "c": "red", "slam": true, "d": 0.35},
+   {"s": "las puntas pasan a ser líneas rectas", "f": "oswb", "size": 50, "y": 1020, "d": 1.0},
+   {"s": "así lo hacen hace más de cuatro décadas", "f": "type", "size": 40, "y": 1100, "c": "dim", "d": 1.6}
+  ]},
+  {"t0": 23.2, "dur": 4.6, "els": [
+   {"s": "Mismo nombre, otro logo", "f": "oswb", "size": 56, "y": 660},
+   {"s": "¿LO SABÍAS?", "f": "anton", "size": 170, "y": 840, "c": "red", "slam": true, "d": 0.4},
+   {"s": "Contame abajo", "f": "type", "size": 54, "y": 1040, "d": 1.2}
+  ]}
+ ]
+}
