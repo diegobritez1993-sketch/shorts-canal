@@ -1,0 +1,44 @@
+{
+ "tema": "Pink Floyd: en 1965 la banda probó varios nombres (Sigma 6, The Abdabs, The Spectrum Five, The Tea Set); The Tea Set se cayó cuando se cruzaron con otra banda llamada igual en un show en una base de la RAF; Syd Barrett juntó los nombres de dos bluesmen de Carolina, Pink Anderson y Floyd Council; por un tiempo fueron The Pink Floyd Sound",
+ "fuente": "Fuente: Louder, «How Pink Floyd learned to fly» (2023) · American Songwriter (2025) · Far Out Magazine",
+ "url_fuente": "https://www.loudersound.com/features/pink-floyd-the-early-years",
+ "seed": 1128,
+ "bpm": 138,
+ "tono": 41,
+ "footer_y": 1360,
+ "escenas": [
+  {"t0": 0.0, "dur": 3.8, "els": [
+   {"s": "¿DE DÓNDE SALE", "f": "anton", "size": 130, "y": 680, "slam": true},
+   {"s": "PINK FLOYD", "f": "anton", "size": 180, "y": 860, "c": "red", "slam": true, "d": 0.35},
+   {"s": "como nombre?", "f": "type", "size": 62, "y": 1040, "d": 1.0}
+  ]},
+  {"t0": 3.8, "dur": 4.8, "els": [
+   {"s": "Londres, 1965: probaban nombres", "f": "type", "size": 48, "y": 660},
+   {"s": "THE ABDABS", "f": "anton", "size": 160, "y": 830, "slam": true, "d": 0.35, "bar": 600},
+   {"s": "también Sigma 6 y The Spectrum Five", "f": "oswb", "size": 50, "y": 1020, "d": 1.0}
+  ]},
+  {"t0": 8.6, "dur": 4.8, "els": [
+   {"s": "Uno casi queda para siempre:", "f": "type", "size": 50, "y": 660},
+   {"s": "THE TEA SET", "f": "anton", "size": 160, "y": 830, "c": "red", "slam": true, "d": 0.35, "bar": 600},
+   {"s": "hasta que en un show en una base de la RAF", "f": "oswb", "size": 44, "y": 1020, "d": 1.0},
+   {"s": "había OTRA banda llamada igual", "f": "type", "size": 46, "y": 1100, "c": "dim", "d": 1.6}
+  ]},
+  {"t0": 13.4, "dur": 5.0, "els": [
+   {"s": "Syd Barrett juntó a dos bluesmen", "f": "type", "size": 48, "y": 640},
+   {"s": "PINK ANDERSON", "f": "anton", "size": 140, "y": 800, "slam": true, "d": 0.35},
+   {"s": "FLOYD COUNCIL", "f": "anton", "size": 140, "y": 960, "c": "red", "slam": true, "d": 0.8},
+   {"s": "dos músicos de blues de Carolina (EE.UU.)", "f": "oswb", "size": 44, "y": 1110, "d": 1.4}
+  ]},
+  {"t0": 18.4, "dur": 4.8, "els": [
+   {"s": "Y por un tiempo fueron", "f": "type", "size": 52, "y": 660},
+   {"s": "THE PINK", "f": "anton", "size": 160, "y": 820, "slam": true, "d": 0.35},
+   {"s": "FLOYD SOUND", "f": "anton", "size": 160, "y": 990, "c": "red", "slam": true, "d": 0.7},
+   {"s": "después quedó solo Pink Floyd", "f": "type", "size": 44, "y": 1130, "c": "dim", "d": 1.4}
+  ]},
+  {"t0": 23.2, "dur": 4.6, "els": [
+   {"s": "Un nombre hecho con dos bluesmen", "f": "oswb", "size": 52, "y": 660},
+   {"s": "¿LO SABÍAS?", "f": "anton", "size": 170, "y": 840, "c": "red", "slam": true, "d": 0.4},
+   {"s": "Contame abajo", "f": "type", "size": 54, "y": 1040, "d": 1.2}
+  ]}
+ ]
+}
